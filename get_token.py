@@ -1,26 +1,25 @@
 import requests
+from dotenv import load_dotenv
+import os
 
-from credentials import CLIENT_ID, CLIENT_SECRET, REFRESH_TOKEN
+load_dotenv()
 
-print(f"DEBUG: Using Client ID: {CLIENT_ID[:10]}...") 
-print(f"DEBUG: Using Refresh Token: {REFRESH_TOKEN[:10]}...")
+CLIENT_ID = os.getenv("CLIENT_ID")
+CLIENT_SECRET = os.getenv("CLIENT_SECRET")
+REFRESH_TOKEN = os.getenv("REFRESH_TOKEN")
 
 TOKEN_URL = "https://accounts.zoho.com/oauth/v2/token"
 
 def get_access_token():
 
-    payload = {
+    params = {
         "refresh_token": REFRESH_TOKEN,
         "client_id": CLIENT_ID,
         "client_secret": CLIENT_SECRET,
         "grant_type": "refresh_token"
     }
 
-    headers = {
-        "Content-Type": "application/x-www-form-urlencoded"
-    }
-
-    response = requests.post(TOKEN_URL, data=payload, headers=headers)
+    response = requests.post(TOKEN_URL, data=params)
     data = response.json()
 
     if "access_token" in data:
