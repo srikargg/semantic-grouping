@@ -11,14 +11,12 @@ REFRESH_TOKEN = os.getenv("REFRESH_TOKEN")
 TOKEN_URL = "https://accounts.zoho.com/oauth/v2/token"
 
 def get_access_token():
-
     params = {
         "refresh_token": REFRESH_TOKEN,
         "client_id": CLIENT_ID,
         "client_secret": CLIENT_SECRET,
         "grant_type": "refresh_token"
     }
-
     response = requests.post(TOKEN_URL, data=params)
     data = response.json()
 
@@ -30,11 +28,8 @@ def get_access_token():
         print("\nError:")
         print(data)
         return None
-    
+
 if __name__ == "__main__":
     token = get_access_token()
     print("\nYour token:")
     print(token)
-
-
-

@@ -21,7 +21,7 @@ multiple differently-named tasks to hide time overruns.
 
 ## Progress
 - [x] Phase 1: OAuth Authentication
-- [ ] Phase 2: Data Extraction
+- [x] Phase 2: Data Extraction
 - [ ] Phase 3: Data Cleaning
 - [ ] Phase 4: AI Semantic Grouping
 - [ ] Phase 5: Report Generation
