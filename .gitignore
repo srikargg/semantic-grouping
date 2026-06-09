@@ -2,3 +2,5 @@ credentials.py
 .env
 __pycache__/
 *.pyc
+
+# Files to ignore related to fetching and cleaning data
