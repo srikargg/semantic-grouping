@@ -17,7 +17,7 @@ multiple differently-named tasks to hide time overruns.
 ## Project Structure
 - get_token.py        # OAuth authentication with Zoho
 - README.md           # You are here
-- .gitignore          # Keeps credentials off GitHub
+- .gitignore          # Keeps credentials off of GitHub
 
 ## Progress
 - [x] Phase 1: OAuth Authentication
