@@ -7,7 +7,7 @@ print("Loading model...")
 model = SentenceTransformer("all-MiniLM-L6-v2")
 print("Model loaded!")
 
-
+#
 titles = [
     "Sprint and project management calls",
     "Zoho tasks, cards, and time logging",
