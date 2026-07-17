@@ -2,5 +2,7 @@ credentials.py
 .env
 __pycache__/
 *.pyc
-
+clean_logs.json
+embedded_logs.json
+matched_logs.json
 # Files to ignore related to fetching and cleaning data
