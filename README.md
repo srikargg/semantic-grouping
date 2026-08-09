@@ -1,6 +1,3 @@
-## README.md
-
-```markdown
 # Semantic Time-Log Aggregator
 ### AI-Powered Project Time Analysis Using Vector Embeddings & Cosine Similarity
 
@@ -24,11 +21,11 @@ In project management, employees are given time estimates for tasks. When actual
 - Resource planning and forecasting become unreliable
 
 **Example:**
-```
+
 Task A: "Python file reader setup" — Estimated: 1hr, Actual: 1hr ✓
 Task B: "File handler optimization" — Estimated: 1hr, Actual: 1hr ✓
 Task C: "File I/O error resolution" — Estimated: 1hr, Actual: 1hr ✓
-```
+
 What actually happened: One task ("Read a file in Python") took 3 hours, split across 3 differently-named entries to hide the overrun.
 
 ---
@@ -49,42 +46,40 @@ This tool uses a multi-stage AI pipeline to:
 
 ### System Pipeline
 
-```
 Zoho Projects API
-       │
-       ▼
+│
+▼
 ┌─────────────────────┐
-│  Data Ingestion      │  OAuth 2.0 authentication
-│  fetch_timelogs.py  │  REST API calls with bearer tokens
+│ Data Ingestion │ OAuth 2.0 authentication
+│ fetch_timelogs.py │ REST API calls with bearer tokens
 └─────────────────────┘
-       │
-       ▼
+│
+▼
 ┌─────────────────────┐
-│  Data Cleaning       │  Rule-based filtering
-│  clean_data.py      │  Removes empty, trivial, and low-signal entries
+│ Data Cleaning │ Rule-based filtering
+│ clean_data.py │ Removes empty, trivial, and low-signal entries
 └─────────────────────┘
-       │
-       ▼
+│
+▼
 ┌─────────────────────┐
-│  Embedding Engine    │  SLM: all-MiniLM-L6-v2
-│  embed_notes.py     │  384-dimensional dense vector space
+│ Embedding Engine │ SLM: all-MiniLM-L6-v2
+│ embed_notes.py │ 384-dimensional dense vector space
 └─────────────────────┘
-       │
-       ▼
+│
+▼
 ┌─────────────────────┐
-│  Semantic Matching   │  Cosine similarity with hierarchy guardrails
-│  match_logs.py      │  Task list → Milestone → Project boundary enforcement
+│ Semantic Matching │ Cosine similarity with hierarchy guardrails
+│ match_logs.py │ Task list → Milestone → Project boundary enforcement
 └─────────────────────┘
-       │
-       ▼
+│
+▼
 ┌─────────────────────┐
-│  Aggregation         │  Hours summation per semantic group
-│  aggregate.py       │  Variance analysis vs original estimates
+│ Aggregation │ Hours summation per semantic group
+│ aggregate.py │ Variance analysis vs original estimates
 └─────────────────────┘
-       │
-       ▼
-  JSON / CSV Report
-```
+│
+▼
+JSON / CSV Report
 
 ---
 
@@ -105,22 +100,16 @@ Key properties:
 ### Vector Embeddings
 
 Each time log note is transformed into a dense vector:
-
-```
 "call with Prabhu regarding Zoho card management"
-        ↓  all-MiniLM-L6-v2
-[-0.1187, 0.0533, -0.0685, 0.0412, ..., 0.0821]  ← 384 dimensions
-```
+↓ all-MiniLM-L6-v2
+[-0.1187, 0.0533, -0.0685, 0.0412, ..., 0.0821] ← 384 dimensions
 
 This vector encodes **semantic meaning**, not keywords. Two sentences that describe the same activity will produce geometrically proximate vectors even with completely different vocabulary.
 
 ### Cosine Similarity
 
 Similarity between a log note embedding and a task title embedding is computed using **cosine similarity**:
-
-```
 cos(θ) = (A · B) / (||A|| × ||B||)
-```
 
 Where:
 - `A` = embedding vector of the time log note
@@ -157,14 +146,11 @@ Cosine similarity was selected because time log notes vary significantly in leng
 A critical design decision in this system is enforcing **organizational boundaries** during matching. Without guardrails, cosine similarity could match a log from one project to a task in a completely different project — even with a high score — because the semantic content overlaps (e.g. two different teams discussing the same technology).
 
 The guardrail system enforces matching within this hierarchy:
-
-```
 Project (boundary level 3)
-  └── Milestone (boundary level 2)
-        └── Task List (boundary level 1 — tightest)
-              └── Task ← match candidates
-                    └── Time Log (note to be matched)
-```
+└── Milestone (boundary level 2)
+└── Task List (boundary level 1 — tightest)
+└── Task ← match candidates
+└── Time Log (note to be matched)
 
 Matching precedence:
 1. First attempt matching within the **same Task List**
@@ -178,21 +164,19 @@ This prevents cross-project contamination and ensures matches are contextually m
 
 ## OAuth 2.0 Authentication Flow
 
-```
 Client Credentials + Refresh Token
-           │
-           ▼
+│
+▼
 POST https://accounts.zoho.com/oauth/v2/token
-           │
-           ▼
-     Access Token (TTL: 3600s)
-           │
-           ▼
+│
+▼
+Access Token (TTL: 3600s)
+│
+▼
 Authorization: Zoho-oauthtoken <access_token>
-           │
-           ▼
-    Zoho Projects REST API
-```
+│
+▼
+Zoho Projects REST API
 
 Credentials are stored in a `.env` file and loaded at runtime using `python-dotenv`. Access tokens are regenerated automatically on each run since they expire after 1 hour.
 
@@ -255,40 +239,18 @@ Reduction: ~100 raw logs → 47 meaningful entries (53% noise reduction)
 
 ## Project Structure
 
-```
 internship-project-1/
 │
-├── get_token.py          # OAuth 2.0 token generation
-├── fetch_timelogs.py     # Zoho API data extraction
-├── clean_data.py         # NLP preprocessing & noise filtering
-├── embed_notes.py        # SLM vector embedding generation
-├── match_logs.py         # Cosine similarity matching engine
-├── aggregate.py          # Hours aggregation & variance analysis
+├── get_token.py # OAuth 2.0 token generation
+├── fetch_timelogs.py # Zoho API data extraction
+├── clean_data.py # NLP preprocessing & noise filtering
+├── embed_notes.py # SLM vector embedding generation
+├── match_logs.py # Cosine similarity matching engine
+├── aggregate.py # Hours aggregation & variance analysis
 │
-├── .env                  # Credentials (git-ignored)
+├── .env # Credentials (git-ignored)
 ├── .gitignore
 └── README.md
-```
-
----
-
-## Key Results
-
-- Reduced 100 raw time log entries to 47 high-signal notes through automated preprocessing
-- Successfully mapped semantically related logs to parent tasks using vector similarity
-- Identified estimation discrepancies hidden across multiple task entries
-- Built fully local inference pipeline — no external AI API costs, no data leaving the system
-
----
-
-## Business Value
-
-- **Improved estimation accuracy** — reveals true time expenditure hidden across fragmented task entries
-- **Automated semantic analysis** — eliminates manual review of hundreds of time log notes
-- **Scalable pipeline** — designed to run across all projects in a Zoho portal, not just one
-- **Privacy-first architecture** — all ML inference runs locally, no sensitive project data sent to external APIs
-
----
 
 ## Progress
 - [x] Phase 1: OAuth Authentication
@@ -297,6 +259,3 @@ internship-project-1/
 - [ ] Phase 4: AI Semantic Grouping
 - [ ] Phase 5: Report Generation
 
-## Author
-
-Srikar Gummadi
