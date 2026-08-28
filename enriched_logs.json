@@ -2,6 +2,7 @@
   {
     "hours": "00:12",
     "notes": "call with Devyani regarding task billable/non billable",
+    "owner": "Nellie Rajarova",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -12,6 +13,7 @@
   {
     "hours": "00:16",
     "notes": "call with Prabhu regarding zoho tasks",
+    "owner": "Nellie Rajarova",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -22,6 +24,7 @@
   {
     "hours": "00:19",
     "notes": "Call regarding zoho project cards with Sonam",
+    "owner": "Nellie Rajarova",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -32,6 +35,7 @@
   {
     "hours": "00:30",
     "notes": "",
+    "owner": "Nellie Rajarova",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -42,6 +46,7 @@
   {
     "hours": "00:22",
     "notes": "Call with Sonam  regarding Emery and Fradyane Card Management in Zoho",
+    "owner": "Prabhupada Mohanty",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -52,6 +57,7 @@
   {
     "hours": "00:22",
     "notes": "Call with Prabhu regarding Emery & Feradyne cards management in zoho",
+    "owner": "Sonam Tanwar",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -62,6 +68,7 @@
   {
     "hours": "00:30",
     "notes": "",
+    "owner": "Sonali Panda",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -72,6 +79,7 @@
   {
     "hours": "00:20",
     "notes": "Sprint closure call",
+    "owner": "HEMALATHA M",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -82,6 +90,7 @@
   {
     "hours": "05:53",
     "notes": "Idle time",
+    "owner": "Gloria Jena",
     "original_task_id": "1918757000005401235",
     "original_task_name": "Idletime",
     "tasklist_id": "1918757000000655081",
@@ -92,6 +101,7 @@
   {
     "hours": "00:28",
     "notes": "Sprint Closer Call",
+    "owner": "Prabhupada Mohanty",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -102,6 +112,7 @@
   {
     "hours": "00:28",
     "notes": "Sprint closer",
+    "owner": "Gloria Jena",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -112,6 +123,7 @@
   {
     "hours": "00:28",
     "notes": "Sprint closure call",
+    "owner": "Sonam Tanwar",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -122,6 +134,7 @@
   {
     "hours": "00:27",
     "notes": "Status call",
+    "owner": "Sonam Tanwar",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -132,6 +145,7 @@
   {
     "hours": "00:29",
     "notes": "",
+    "owner": "Chinmay Dhal",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -142,6 +156,7 @@
   {
     "hours": "00:28",
     "notes": "Sprint closure call",
+    "owner": "Shruti Agarwal",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -152,6 +167,7 @@
   {
     "hours": "00:27",
     "notes": "Status Call",
+    "owner": "HEMALATHA M",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -162,6 +178,7 @@
   {
     "hours": "00:27",
     "notes": "Status call",
+    "owner": "Shruti Agarwal",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -172,6 +189,7 @@
   {
     "hours": "00:20",
     "notes": "had call with shruti regarding the cutomer cohort analysis report",
+    "owner": "Sonali Panda",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -182,6 +200,7 @@
   {
     "hours": "00:30",
     "notes": "had call with amit mohanty sir regarding customer cohort analysis validation",
+    "owner": "Sonali Panda",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -192,6 +211,7 @@
   {
     "hours": "00:30",
     "notes": "",
+    "owner": "Sonali Panda",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -202,6 +222,7 @@
   {
     "hours": "04:30",
     "notes": "",
+    "owner": "Sonali Panda",
     "original_task_id": "1918757000005401235",
     "original_task_name": "Idletime",
     "tasklist_id": "1918757000000655081",
@@ -212,6 +233,7 @@
   {
     "hours": "00:11",
     "notes": "-Call with Prabhu and Sonam for the tasks which I will work today and for next week, for creating the cards on the basis of that",
+    "owner": "Chinmay Dhal",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -222,6 +244,7 @@
   {
     "hours": "00:17",
     "notes": "-Call with Shruti for the changes to be done in the Power BI report for MRP project",
+    "owner": "Chinmay Dhal",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -232,6 +255,7 @@
   {
     "hours": "00:10",
     "notes": "-Call with Prabhu to understand the requirements of Rocker Box",
+    "owner": "Chinmay Dhal",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -242,6 +266,7 @@
   {
     "hours": "00:24",
     "notes": "Status Update Call",
+    "owner": "Prabhupada Mohanty",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -252,6 +277,7 @@
   {
     "hours": "00:27",
     "notes": "",
+    "owner": "Chinmay Dhal",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -262,6 +288,7 @@
   {
     "hours": "00:23",
     "notes": "Status Call",
+    "owner": "Gloria Jena",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -272,6 +299,7 @@
   {
     "hours": "00:17",
     "notes": "",
+    "owner": "Sonali Panda",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -282,6 +310,7 @@
   {
     "hours": "00:20",
     "notes": "",
+    "owner": "Nellie Rajarova",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -292,6 +321,7 @@
   {
     "hours": "00:30",
     "notes": "had call with chinmay regarding the explanation of tableau dashboards and test case reports",
+    "owner": "Sonali Panda",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -302,6 +332,7 @@
   {
     "hours": "02:00",
     "notes": "",
+    "owner": "Sonali Panda",
     "original_task_id": "1918757000005401235",
     "original_task_name": "Idletime",
     "tasklist_id": "1918757000000655081",
@@ -312,6 +343,7 @@
   {
     "hours": "03:00",
     "notes": "analysed the dasboards and test case reports of  IFCJ-creative,IMG-CTV ,GALCO DASHBOARD",
+    "owner": "Sonali Panda",
     "original_task_id": "1918757000005436063",
     "original_task_name": "Analysis of tableau dashboards and test case reports",
     "tasklist_id": "1918757000000655081",
@@ -322,6 +354,7 @@
   {
     "hours": "00:14",
     "notes": "-Call with Sonam for the SSFCU and Honeywell dashboard   -Data mismatched for Honeywell with respect to GBQ data discuss   -SSFCU requirements for QA discuss   -Anything raised by Maria discuss",
+    "owner": "Chinmay Dhal",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -332,6 +365,7 @@
   {
     "hours": "00:23",
     "notes": "-Call with Shruti to understand the requirements for the Communicazione MRP tool report",
+    "owner": "Chinmay Dhal",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -342,6 +376,7 @@
   {
     "hours": "00:26",
     "notes": "-call with Sonali for the discussion of requirements and issues raised by the client side and the test plan and test case report.   -Explained detailed about how I create the test plan report.",
+    "owner": "Chinmay Dhal",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -352,6 +387,7 @@
   {
     "hours": "00:26",
     "notes": "Meeting  - Call with Amit M regarding Energy-LED timesheet",
+    "owner": "HEMALATHA M",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -362,6 +398,7 @@
   {
     "hours": "00:21",
     "notes": "Meeting - Call with shruti regarding Communicazione ANC measure & logo & retention % measure changes in the Demo model",
+    "owner": "HEMALATHA M",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -372,6 +409,7 @@
   {
     "hours": "00:19",
     "notes": "Status Call",
+    "owner": "HEMALATHA M",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -382,6 +420,7 @@
   {
     "hours": "00:17",
     "notes": "Status call",
+    "owner": "Sonam Tanwar",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -392,6 +431,7 @@
   {
     "hours": "00:16",
     "notes": "Status call",
+    "owner": "Shruti Agarwal",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -402,6 +442,7 @@
   {
     "hours": "00:16",
     "notes": "",
+    "owner": "Chinmay Dhal",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -412,6 +453,7 @@
   {
     "hours": "00:20",
     "notes": "",
+    "owner": "Sonali Panda",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -422,6 +464,7 @@
   {
     "hours": "00:40",
     "notes": "",
+    "owner": "Sonali Panda",
     "original_task_id": "1918757000005401235",
     "original_task_name": "Idletime",
     "tasklist_id": "1918757000000655081",
@@ -432,6 +475,7 @@
   {
     "hours": "00:50",
     "notes": "",
+    "owner": "Sonali Panda",
     "original_task_id": "1918757000005401235",
     "original_task_name": "Idletime",
     "tasklist_id": "1918757000000655081",
@@ -442,6 +486,7 @@
   {
     "hours": "01:30",
     "notes": "",
+    "owner": "Sonali Panda",
     "original_task_id": "1918757000005401235",
     "original_task_name": "Idletime",
     "tasklist_id": "1918757000000655081",
@@ -452,6 +497,7 @@
   {
     "hours": "00:34",
     "notes": "",
+    "owner": "Nellie Rajarova",
     "original_task_id": "1918757000005387027",
     "original_task_name": "Update Milestone and approve TS",
     "tasklist_id": "1918757000000655081",
@@ -462,6 +508,7 @@
   {
     "hours": "04:40",
     "notes": "Idle Time",
+    "owner": "Gloria Jena",
     "original_task_id": "1918757000005401235",
     "original_task_name": "Idletime",
     "tasklist_id": "1918757000000655081",
@@ -472,6 +519,7 @@
   {
     "hours": "00:18",
     "notes": "",
+    "owner": "Chinmay Dhal",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -482,6 +530,7 @@
   {
     "hours": "00:09",
     "notes": "Call with Prabhu and Sonam for the creation of Issues reports raised by Maria.",
+    "owner": "Chinmay Dhal",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -492,6 +541,7 @@
   {
     "hours": "00:09",
     "notes": "Call with Amit Mohanty for the Test case report review, Power BI dax discussion and zoho learning card.",
+    "owner": "Chinmay Dhal",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -502,6 +552,7 @@
   {
     "hours": "00:06",
     "notes": "Call with Devyani for the issue related filling the log hours for Honeywell.",
+    "owner": "Chinmay Dhal",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -512,6 +563,7 @@
   {
     "hours": "00:21",
     "notes": "call with Amit regarding why we have TM002 and why not archive TM001 Why PILOT name was used. Sonam Leave plan.",
+    "owner": "Nellie Rajarova",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -522,6 +574,7 @@
   {
     "hours": "00:39",
     "notes": "Call with Lamark Team regarding Task Management and priority for lamark",
+    "owner": "Prabhupada Mohanty",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -532,6 +585,7 @@
   {
     "hours": "00:39",
     "notes": "Call with lamark team regarding task management now onwards.",
+    "owner": "Sonam Tanwar",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -542,6 +596,7 @@
   {
     "hours": "00:19",
     "notes": "Status call",
+    "owner": "Sonam Tanwar",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -552,6 +607,7 @@
   {
     "hours": "00:16",
     "notes": "Status Update Call",
+    "owner": "Prabhupada Mohanty",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -562,6 +618,7 @@
   {
     "hours": "00:40",
     "notes": "PBI Candidate: Naresh Kumar",
+    "owner": "HEMALATHA M",
     "original_task_id": "1918757000005401455",
     "original_task_name": "PBI Interview",
     "tasklist_id": "1918757000000655081",
@@ -572,6 +629,7 @@
   {
     "hours": "00:18",
     "notes": "Status Call",
+    "owner": "HEMALATHA M",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -582,6 +640,7 @@
   {
     "hours": "00:39",
     "notes": "Call with Prabhu , Sonam   regarding  1.after hours  2.4 hrs limit   3. Chinmay validation process   4.Production move steps",
+    "owner": "Nellie Rajarova",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -592,6 +651,7 @@
   {
     "hours": "00:23",
     "notes": "call with Devyani regarding TM#1 filler tasks",
+    "owner": "Nellie Rajarova",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -602,6 +662,7 @@
   {
     "hours": "01:13",
     "notes": "Call with AMit & Asit regarding process of LMRK Validation",
+    "owner": "Nellie Rajarova",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -612,6 +673,7 @@
   {
     "hours": "02:09",
     "notes": "Discussion with Asit regarding    Limit Lamark hours to 50 hrs in a week (20-Prabhu+20-Sonam+10Chinamy)   Check hours spend in validation (how we can optimize hours spend in validation). Check how we are validating the dashboard   When creating ETA , take into consideration that we can spend 4 hrs a day, 1 day buffer, 3-5 hours in bugs and fixes   In case they increase the scope of any milestone, we need to let them know that x hours more will be used and ETA will be pushed.    Chinmay will list down what all bugs/issues have been raised by Maria   Try to manage our actual vs estimates (We need to close the gap)   If any work is going to take >8hr, it needs to have its milestone   Create projects/test plans for the non billable hours(Internal project+self improvement)",
+    "owner": "Nellie Rajarova",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -622,6 +684,7 @@
   {
     "hours": "00:20",
     "notes": "Status call",
+    "owner": "Shruti Agarwal",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -632,6 +695,7 @@
   {
     "hours": "00:20",
     "notes": "Status Call",
+    "owner": "Gloria Jena",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -642,6 +706,7 @@
   {
     "hours": "00:30",
     "notes": "",
+    "owner": "Sonali Panda",
     "original_task_id": "1918757000005401235",
     "original_task_name": "Idletime",
     "tasklist_id": "1918757000000655081",
@@ -652,6 +717,7 @@
   {
     "hours": "01:15",
     "notes": "",
+    "owner": "Sonali Panda",
     "original_task_id": "1918757000005401235",
     "original_task_name": "Idletime",
     "tasklist_id": "1918757000000655081",
@@ -662,6 +728,7 @@
   {
     "hours": "00:45",
     "notes": "",
+    "owner": "Sonali Panda",
     "original_task_id": "1918757000005401235",
     "original_task_name": "Idletime",
     "tasklist_id": "1918757000000655081",
@@ -672,6 +739,7 @@
   {
     "hours": "00:25",
     "notes": "",
+    "owner": "Sonali Panda",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -682,6 +750,7 @@
   {
     "hours": "01:24",
     "notes": "",
+    "owner": "Nellie Rajarova",
     "original_task_id": "1918757000005414097",
     "original_task_name": "Filter heat map using set filter actions",
     "tasklist_id": "1918757000005414083",
@@ -692,6 +761,7 @@
   {
     "hours": "02:29",
     "notes": "",
+    "owner": "Nellie Rajarova",
     "original_task_id": "1918757000005414091",
     "original_task_name": "Create Heat map cohort chart for customer retention",
     "tasklist_id": "1918757000005414083",
@@ -702,6 +772,7 @@
   {
     "hours": "00:44",
     "notes": "1. call with devyani regarding missing time entry for chinmay because of moving cards across projects   2. Call with Chinmay regarding why not create a bug for issues",
+    "owner": "Nellie Rajarova",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -712,6 +783,7 @@
   {
     "hours": "00:29",
     "notes": "Call with Prabhu and Chinmay regarding high validation hrs",
+    "owner": "Nellie Rajarova",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -722,6 +794,7 @@
   {
     "hours": "00:27",
     "notes": "Call with Amit regarding Macktruck filler tasks and why we were creating filler tasks for 40 hrs",
+    "owner": "Nellie Rajarova",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -732,6 +805,7 @@
   {
     "hours": "00:23",
     "notes": "call regarding leave plans update",
+    "owner": "Nellie Rajarova",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -742,6 +816,7 @@
   {
     "hours": "00:25",
     "notes": "",
+    "owner": "Nellie Rajarova",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -752,6 +827,7 @@
   {
     "hours": "05:15",
     "notes": "Idletime",
+    "owner": "Gloria Jena",
     "original_task_id": "1918757000005401235",
     "original_task_name": "Idletime",
     "tasklist_id": "1918757000000655081",
@@ -762,6 +838,7 @@
   {
     "hours": "00:20",
     "notes": "Meeting - Call with Devyani",
+    "owner": "Gloria Jena",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -772,6 +849,7 @@
   {
     "hours": "00:25",
     "notes": "Status call",
+    "owner": "Shruti Agarwal",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -782,6 +860,7 @@
   {
     "hours": "00:25",
     "notes": "Status update call",
+    "owner": "Prabhupada Mohanty",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -792,6 +871,7 @@
   {
     "hours": "00:25",
     "notes": "Status call",
+    "owner": "Sonam Tanwar",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -802,6 +882,7 @@
   {
     "hours": "00:08",
     "notes": "-call is all about the card creation of FLAVCITY, discussion is about the subtask creation inside the cards for the Estimate time.",
+    "owner": "Chinmay Dhal",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -812,6 +893,7 @@
   {
     "hours": "00:10",
     "notes": "-Call with Nellie and Prabhu for the FLAVCITY and suggestions on Validation steps which I should follow.",
+    "owner": "Chinmay Dhal",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -822,6 +904,7 @@
   {
     "hours": "00:11",
     "notes": "-call with Nellie and Devyani for the zoho sprint issue, PILOT is not showing in zoho project.",
+    "owner": "Chinmay Dhal",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -832,6 +915,7 @@
   {
     "hours": "00:10",
     "notes": "-Call with Sonali for Lmrk dashboard discussion",
+    "owner": "Chinmay Dhal",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -842,6 +926,7 @@
   {
     "hours": "00:25",
     "notes": "",
+    "owner": "Chinmay Dhal",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -852,6 +937,7 @@
   {
     "hours": "00:25",
     "notes": "Status Call",
+    "owner": "Gloria Jena",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -862,6 +948,7 @@
   {
     "hours": "03:00",
     "notes": "",
+    "owner": "Nellie Rajarova",
     "original_task_id": "1918757000005401235",
     "original_task_name": "Idletime",
     "tasklist_id": "1918757000000655081",
@@ -872,6 +959,7 @@
   {
     "hours": "00:25",
     "notes": "",
+    "owner": "Nellie Rajarova",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -882,6 +970,7 @@
   {
     "hours": "00:25",
     "notes": "",
+    "owner": "Sonali Panda",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -892,6 +981,7 @@
   {
     "hours": "00:30",
     "notes": "",
+    "owner": "Sonali Panda",
     "original_task_id": "1918757000005401235",
     "original_task_name": "Idletime",
     "tasklist_id": "1918757000000655081",
@@ -902,6 +992,7 @@
   {
     "hours": "00:38",
     "notes": "discussion with Amit sir and Shruti for the dax function review.",
+    "owner": "Chinmay Dhal",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -912,6 +1003,7 @@
   {
     "hours": "00:11",
     "notes": "Meeting - Call with Nellie for the Overall dashboard for Marketing report",
+    "owner": "HEMALATHA M",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -922,6 +1014,7 @@
   {
     "hours": "02:00",
     "notes": "Idletime",
+    "owner": "Gloria Jena",
     "original_task_id": "1918757000005401235",
     "original_task_name": "Idletime",
     "tasklist_id": "1918757000000655081",
@@ -932,6 +1025,7 @@
   {
     "hours": "00:55",
     "notes": "Meeting - Call with Hemalatha to understand the data about the Assortment Simulator Assignment and to get basic insights from her.",
+    "owner": "Shruti Agarwal",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -942,6 +1036,7 @@
   {
     "hours": "00:45",
     "notes": "Meeting - Call with Shruti abt assortment simulator data & excel formula explanation",
+    "owner": "HEMALATHA M",
     "original_task_id": "1918757000005401215",
     "original_task_name": "General - Meeting ",
     "tasklist_id": "1918757000000655081",
@@ -952,6 +1047,7 @@
   {
     "hours": "00:24",
     "notes": "Status Call",
+    "owner": "HEMALATHA M",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -962,6 +1058,7 @@
   {
     "hours": "00:25",
     "notes": "Status Call",
+    "owner": "Gloria Jena",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -972,6 +1069,7 @@
   {
     "hours": "00:24",
     "notes": "Status call",
+    "owner": "Shruti Agarwal",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
@@ -982,6 +1080,7 @@
   {
     "hours": "00:34",
     "notes": "Worked on Creating extract for view_marking_overview, getting error in GBQ while saving result as google drive : Permission denied while writing data    Checked for the issue in online: Did nt get any solution to this",
+    "owner": "Prabhupada Mohanty",
     "original_task_id": "1918757000005401205",
     "original_task_name": "Create Extract for View_all_marking_overview ",
     "tasklist_id": "1918757000005361015",
@@ -992,6 +1091,7 @@
   {
     "hours": "00:23",
     "notes": "Status Update Call",
+    "owner": "Prabhupada Mohanty",
     "original_task_id": "1918757000005384023",
     "original_task_name": "Status call",
     "tasklist_id": "1918757000000655081",
