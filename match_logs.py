@@ -101,7 +101,7 @@ for log in embedded_logs:
         guardrail_indices = list(range(len(all_tasks)))
         guardrail_level = "project fallback"
     else:
-        guardrail_level = "full hierarchy match"
+        guardrail_level = "tasklist+milestone+project"
     
     filtered_embeddings = task_embeddings[guardrail_indices]
     filtered_tasks = [all_tasks[i] for i in guardrail_indices]
