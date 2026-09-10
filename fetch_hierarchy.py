@@ -46,13 +46,17 @@ while True:
         milestone = task.get("milestone", {})
         milestone_id = str(milestone.get("id", ""))
         milestone_name = milestone.get("name", "")
+
+        owners_and_work = task.get("owners_and_work", {})
+        estimated_hours = owners_and_work.get("total_work", "00:00")
         
         task_lookup[task_id] = {
             "task_name": task_name,
             "tasklist_id": tasklist_id,
             "tasklist_name": tasklist_name,
             "milestone_id": milestone_id,
-            "milestone_name": milestone_name
+            "milestone_name": milestone_name,
+            "estimated_hours": estimated_hours
         }
     
     page += 1
@@ -106,6 +110,7 @@ for day in logs_data.get("time_logs", []):
             "owner": owner_name,
             "original_task_id": original_task_id,
             "original_task_name": original_task_name,
+            "estimated_hours": hierarchy.get("estimated_hours", "00:00"),
             "tasklist_id": hierarchy.get("tasklist_id", ""),
             "tasklist_name": hierarchy.get("tasklist_name", ""),
             "milestone_id": hierarchy.get("milestone_id", ""),

@@ -130,6 +130,7 @@ for log in embedded_logs:
         "hours": log["hours"],
         "notes": log["notes"],
         "owner": log.get("owner", "Unknown"),
+        "estimated_hours": log.get("estimated_hours", "00:00"),
         "original_task": log["original_task_name"],
         "matched_task": matched_task,
         "match_status": match_status,

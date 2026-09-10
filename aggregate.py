@@ -36,36 +36,56 @@ print(f"Found {len(groups)} unique matched tasks")
 report = []
 
 for task_name, logs in groups.items():
-    total_minutes = sum(time_to_minutes(log["hours"]) for log in logs)
+    total_actual_minutes = sum(time_to_minutes(log["hours"]) for log in logs)
+    total_actual_time = minutes_to_time(total_actual_minutes)
     
-    total_time = minutes_to_time(total_minutes)
+    estimated_time = "00:00"
+    for log in logs:
+        est = log.get("estimated_hours", "00:00")
+        if est and est != "00:00":
+            estimated_time = est
+            break
+    
+    estimated_minutes = time_to_minutes(estimated_time)
+    
+    if estimated_minutes == 0:
+        variance_time = "No estimate set"
+        variance_status = "⚠️ no estimate"
+    else:
+        variance_minutes = total_actual_minutes - estimated_minutes
+        variance_time = minutes_to_time(abs(variance_minutes))
+        
+        if variance_minutes > 0:
+            variance_status = f"🔴 OVER by {variance_time}"
+        elif variance_minutes < 0:
+            variance_status = f"🟢 UNDER by {variance_time}"
+        else:
+            variance_status = "✅ exactly on estimate"
     
     owners = list(set(log["owner"] for log in logs))
-    
     log_count = len(logs)
-    
     matched_count = sum(1 for log in logs if log["match_status"] == "matched")
     kept_count = sum(1 for log in logs if log["match_status"] == "kept_original")
     
     report.append({
         "matched_task": task_name,
-        "total_hours": total_time,
-        "total_minutes": total_minutes,
+        "total_actual_hours": total_actual_time,
+        "estimated_hours": estimated_time,
+        "variance": variance_status,
         "log_count": log_count,
         "matched_count": matched_count,
         "kept_original_count": kept_count,
         "owners": owners
     })
 
-
-report.sort(key=lambda x: x["total_minutes"], reverse=True)
+report.sort(key=lambda x: time_to_minutes(x["total_actual_hours"]), reverse=True)
 
 print("\n--- AGGREGATION REPORT ---")
 for item in report:
     print(f"\nTask: {item['matched_task']}")
-    print(f"Total hours: {item['total_hours']}")
-    print(f"Number of logs: {item['log_count']}")
-    print(f"Owners: {', '.join(item['owners'])}")
+    print(f"Actual: {item['total_actual_hours']} | Estimated: {item['estimated_hours']}")
+    print(f"Variance: {item['variance']}")
+    print(f"Logs: {item['log_count']} | Owners: {', '.join(item['owners'])}")
 
 with open("report.json", "w") as f:
     json.dump(report, f, indent=2)

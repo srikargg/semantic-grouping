@@ -46,9 +46,10 @@ for i, log in enumerate(useful_logs):
     results.append({
         "hours": log["hours"],
         "notes": log["notes"],
-        "owner": log.get("owner", "Unknown"),  # ADD THIS
+        "owner": log.get("owner", "Unknown"),
         "original_task_id": log["original_task_id"],
         "original_task_name": log["original_task_name"],
+        "estimated_hours": log.get("estimated_hours", "00:00"),
         "tasklist_id": log["tasklist_id"],
         "tasklist_name": log["tasklist_name"],
         "milestone_id": log["milestone_id"],
