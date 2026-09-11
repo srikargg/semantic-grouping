@@ -1,4 +1,5 @@
 import json
+import csv
 from collections import defaultdict
 
 
@@ -49,18 +50,17 @@ for task_name, logs in groups.items():
     estimated_minutes = time_to_minutes(estimated_time)
     
     if estimated_minutes == 0:
-        variance_time = "No estimate set"
-        variance_status = "⚠️ no estimate"
+        variance_status = "NO ESTIMATE"
     else:
         variance_minutes = total_actual_minutes - estimated_minutes
         variance_time = minutes_to_time(abs(variance_minutes))
         
         if variance_minutes > 0:
-            variance_status = f"🔴 OVER by {variance_time}"
+            variance_status = f"OVER by {variance_time}"
         elif variance_minutes < 0:
-            variance_status = f"🟢 UNDER by {variance_time}"
+            variance_status = f"UNDER by {variance_time}"
         else:
-            variance_status = "✅ exactly on estimate"
+            variance_status = "EXACTLY ON ESTIMATE"
     
     owners = list(set(log["owner"] for log in logs))
     log_count = len(logs)
@@ -91,3 +91,35 @@ with open("report.json", "w") as f:
     json.dump(report, f, indent=2)
 
 print(f"\nSaved report to report.json")
+
+with open("report.csv", "w", newline="") as f:
+    
+    fieldnames = [
+        "matched_task",
+        "total_actual_hours", 
+        "estimated_hours",
+        "variance",
+        "log_count",
+        "matched_count",
+        "kept_original_count",
+        "owners"
+    ]
+    
+
+    writer = csv.DictWriter(f, fieldnames=fieldnames)
+    
+    writer.writeheader()
+    
+    for item in report:
+        writer.writerow({
+            "matched_task": item["matched_task"],
+            "total_actual_hours": item["total_actual_hours"],
+            "estimated_hours": item["estimated_hours"],
+            "variance": item["variance"],
+            "log_count": item["log_count"],
+            "matched_count": item["matched_count"],
+            "kept_original_count": item["kept_original_count"],
+            "owners": ", ".join(item["owners"])
+        })
+
+print("Saved report to report.csv")
