@@ -13,74 +13,53 @@ token = get_access_token()
 headers = {"Authorization": f"Zoho-oauthtoken {token}"}
 
 PORTAL_ID = "771456286"
+PROJECT_ID = "1918757000000658005"
 
-# ---- SAME 33 PROJECT IDs AS fetch_hierarchy.py ----
-# This must match exactly what fetch_hierarchy.py used
-# so guardrail keys line up correctly
-PROJECT_IDS = [
-    "1918757000014095003", "1918757000013919141", "1918757000013797043",
-    "1918757000011643045", "1918757000010163111", "1918757000009851029",
-    "1918757000009359081", "1918757000008931003", "1918757000008623257",
-    "1918757000008192035", "1918757000008181009", "1918757000007702119",
-    "1918757000007204067", "1918757000006840195", "1918757000006496096",
-    "1918757000006371537", "1918757000005662375", "1918757000005341005",
-    "1918757000004860863", "1918757000004634049", "1918757000004412216",
-    "1918757000004412007", "1918757000004377027", "1918757000004377007",
-    "1918757000003369145", "1918757000003339093", "1918757000002795005",
-    "1918757000002687132", "1918757000000764025", "1918757000000685005",
-    "1918757000000658005", "1918757000000556065", "1918757000000296005"
-]
-
-print("\nFetching all tasks from ALL projects...")
+print("\nFetching all tasks from Zoho...")
 
 all_tasks = []
+page = 1
 
-for PROJECT_ID in PROJECT_IDS:
-    page = 1
-    while True:
-        url = f"https://projectsapi.zoho.com/api/v3/portal/{PORTAL_ID}/projects/{PROJECT_ID}/tasks"
-        params = {"page": page, "per_page": 100}
-        response = requests.get(url, headers=headers, params=params)
-        data = response.json()
-        tasks = data.get("tasks", [])
+while True:
+    url = f"https://projectsapi.zoho.com/api/v3/portal/{PORTAL_ID}/projects/{PROJECT_ID}/tasks"
+    params = {"page": page, "per_page": 100}
+    response = requests.get(url, headers=headers, params=params)
+    data = response.json()
+    tasks = data.get("tasks", [])
 
-        if not tasks:
-            break
+    if not tasks:
+        break
 
-        for task in tasks:
-            name = task.get("name", "").strip()
-            if name and len(name) > 3:
-                tasklist = task.get("tasklist", {})
-                tasklist_id = str(tasklist.get("id", ""))
+    for task in tasks:
+        name = task.get("name", "").strip()
+        if name and len(name) > 3:
 
-                milestone = task.get("milestone", {})
-                milestone_id = str(milestone.get("id", ""))
-                milestone_name = milestone.get("name", "")
+            tasklist = task.get("tasklist", {})
+            tasklist_id = str(tasklist.get("id", ""))
 
-                if milestone_name == "None" or milestone_name == "":
-                    milestone_key = milestone_id
-                else:
-                    milestone_key = milestone_name
+            milestone = task.get("milestone", {})
+            milestone_id = str(milestone.get("id", ""))
+            milestone_name = milestone.get("name", "")
 
-                # NOTE: guardrail key now uses THIS task's own PROJECT_ID
-                # not a single hardcoded one — this is the actual fix
-                guardrail_key = f"{PROJECT_ID}_{milestone_key}_{tasklist_id}"
+            if milestone_name == "None" or milestone_name == "":
+                milestone_key = milestone_id
+            else:
+                milestone_key = milestone_name
 
-                all_tasks.append({
-                    "task_id": str(task.get("id", "")),
-                    "task_name": name,
-                    "project_id": PROJECT_ID,
-                    "tasklist_id": tasklist_id,
-                    "milestone_id": milestone_id,
-                    "milestone_name": milestone_name,
-                    "guardrail_key": guardrail_key
-                })
+            guardrail_key = f"{PROJECT_ID}_{milestone_key}_{tasklist_id}"
 
-        page += 1
+            all_tasks.append({
+                "task_id": str(task.get("id", "")),
+                "task_name": name,
+                "tasklist_id": tasklist_id,
+                "milestone_id": milestone_id,
+                "milestone_name": milestone_name,
+                "guardrail_key": guardrail_key
+            })
 
-    print(f"  Project {PROJECT_ID}: task pool now at {len(all_tasks)} total")
+    page += 1
 
-print(f"\nTotal tasks loaded across all projects: {len(all_tasks)}")
+print(f"Total tasks loaded: {len(all_tasks)}")
 
 print("\nEmbedding all task names...")
 task_names = [t["task_name"] for t in all_tasks]
@@ -99,9 +78,6 @@ results = []
 for log in embedded_logs:
     note_embedding = np.array(log["embedding"]).reshape(1, -1)
 
-    # NOTE: log's own project_id now used to build guardrail key
-    # This must match the field name saved in enriched_logs.json / embedded_logs.json
-    log_project_id = log.get("project_id", "")
     log_milestone_name = log.get("milestone_name", "")
     log_milestone_id = log.get("milestone_id", "")
     log_tasklist_id = log.get("tasklist_id", "")
@@ -111,7 +87,7 @@ for log in embedded_logs:
     else:
         log_milestone_key = log_milestone_name
 
-    log_guardrail_key = f"{log_project_id}_{log_milestone_key}_{log_tasklist_id}"
+    log_guardrail_key = f"{PROJECT_ID}_{log_milestone_key}_{log_tasklist_id}"
 
     guardrail_indices = [
         i for i, t in enumerate(all_tasks)
@@ -121,16 +97,8 @@ for log in embedded_logs:
     if guardrail_indices:
         guardrail_level = "tasklist+milestone+project"
     else:
-        # Fallback stays within the SAME project
-        guardrail_indices = [
-            i for i, t in enumerate(all_tasks)
-            if t["project_id"] == log_project_id
-        ]
-        if guardrail_indices:
-            guardrail_level = "project fallback"
-        else:
-            guardrail_indices = list(range(len(all_tasks)))
-            guardrail_level = "no project match - global fallback"
+        guardrail_indices = list(range(len(all_tasks)))
+        guardrail_level = "project fallback"
 
     filtered_embeddings = task_embeddings[guardrail_indices]
     filtered_tasks = [all_tasks[i] for i in guardrail_indices]
