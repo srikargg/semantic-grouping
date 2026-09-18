@@ -1,22 +1,703 @@
 matched_task,total_actual_hours,estimated_hours,variance,log_count,matched_count,kept_original_count,owners
-General - Meeting ,10:22,00:00,NO ESTIMATE,21,0,21,"Chinmay Dhal, Nellie Rajarova, HEMALATHA M, Sonam Tanwar, Prabhupada Mohanty"
+Forecast changes for items with less data points,62:05,396:00,UNDER by 333:55,43,0,43,"Amit Mohanty, Shruti Agarwal, Sabitra Panda"
+Data Upload,53:12,00:00,NO ESTIMATE,28,0,28,"Amit Mohanty, Shruti Agarwal"
+CMT - Dev - Implementation of CONSIGNMENT in stock value table,50:10,10:00,OVER by 40:10,19,0,19,Chinmay Dhal
+Client Call,39:47,06:00,OVER by 33:47,42,7,35,"Shruti Agarwal, HEMALATHA M, Sabitra Panda"
+PBV1-Processing BigIN Workflow - Daily,28:59,00:00,NO ESTIMATE,27,21,6,Shruti Agarwal
+Review &quot;HighBeam Onboarding&quot; with Client,28:10,09:00,OVER by 19:10,23,1,22,Shruti Agarwal
+Creation of Performance Dashboard Insights in Power BI,27:30,27:00,OVER by 00:30,4,1,3,"Pavithiran KJ, Akshat Pathak"
+Modification of Zoho Projects Workflow,20:39,09:00,OVER by 11:39,5,1,4,Akshat Pathak
+GNRL - Client Call,20:36,00:00,NO ESTIMATE,28,0,28,"Prabhupada Mohanty, Chinmay Dhal, Sonam Tanwar, Nellie Rajarova"
+Creating a Template model for the Highbeam.,16:59,41:00,UNDER by 24:01,15,2,13,Shruti Agarwal
+Meter Data Project - Emporio - Extracting and Transforming data using Power Query,16:36,10:00,OVER by 06:36,11,1,10,"Shruti Agarwal, Sabitra Panda"
+Fetching Page details for Marketplace Appsource Workflow,16:20,08:00,OVER by 08:20,12,3,9,Shruti Agarwal
+General Meeting,15:30,405:00,UNDER by 389:30,28,0,28,"Prabhupada Mohanty, Chinmay Dhal, Sonam Tanwar, Shruti Agarwal"
+"ZP-Dev- Creation of workfow for each project based on their each Task,Bug &amp; General IDs.",15:24,06:00,OVER by 09:24,7,0,7,"Shruti Agarwal, HEMALATHA M"
+ZP-Validation-Validation of zoho timesheet with LMRK report,14:40,03:00,OVER by 11:40,7,7,0,"Sonali Panda, HEMALATHA M"
+Transformation steps used in the earlier Power Query steps,14:20,24:00,UNDER by 09:40,10,0,10,Shruti Agarwal
+INSD - Dev - Modification of the 12 Month trailing report,13:26,10:00,OVER by 03:26,11,1,10,"Shruti Agarwal, Sabitra Panda"
+INSD - Val - Validation of PBI Insightly Dashboard for DB source connection,12:57,01:00,OVER by 11:57,8,5,3,"Gloria Jena, HEMALATHA M"
+MRP: Changes and Discussion,12:20,189:00,UNDER by 176:40,7,7,0,"Shruti Agarwal, Sabitra Panda"
+SCA - Dev - Check relationship errors and data mismatched for pie charts,11:30,05:00,OVER by 06:30,6,0,6,Chinmay Dhal
+Running the forecast in notebooks,11:00,13:00,UNDER by 02:00,4,1,3,"Shruti Agarwal, Sabitra Panda"
+Analysis of calculated columns &amp; measures(Remaining),11:00,27:00,UNDER by 16:00,2,2,0,Motiranjan Nayak
+ETL-Learning,10:43,00:00,NO ESTIMATE,4,0,4,Sonali Panda
+Creation of Overview Tab,10:29,08:00,OVER by 02:29,8,2,6,Chinmay Dhal
+Code review call,10:23,00:00,NO ESTIMATE,6,0,6,Nellie Rajarova
+General - Meeting ,10:22,00:00,NO ESTIMATE,21,0,21,"Prabhupada Mohanty, Chinmay Dhal, HEMALATHA M, Sonam Tanwar, Nellie Rajarova"
+Meter Data Project - CBI - Data transformation related to Normalised &amp; Non-Normalised Consumption value,10:11,06:00,OVER by 04:11,6,6,0,"Shruti Agarwal, Sabitra Panda"
+Analysis of Zoho Projects Workflow In knime,10:00,09:00,OVER by 01:00,2,0,2,Akshat Pathak
+Internal Call,09:56,180:00,UNDER by 170:04,18,0,18,"Gloria Jena, Sonali Panda, Shruti Agarwal, HEMALATHA M"
+Data Source replacement for Template file with Americover data,09:50,02:30,OVER by 07:20,9,0,9,Shruti Agarwal
+Analysis of issue related to Gross Margin and Inventory data,09:37,09:00,OVER by 00:37,7,2,5,Shruti Agarwal
+Analysis on Forecast data Seems to be low after update of Jan Data,09:35,396:00,UNDER by 386:25,3,3,0,"Amit Mohanty, Shruti Agarwal"
+SPARK  - Check for Health Report Mismatch Web App Opt,09:31,03:00,OVER by 06:31,3,2,1,Prabhupada Mohanty
+ZP - Validation  -  Validation of zoho project knime output,09:25,03:00,OVER by 06:25,8,4,4,"Shruti Agarwal, HEMALATHA M"
+INSD - Issues - Work on  the DB load Issue,09:25,03:00,OVER by 06:25,3,0,3,HEMALATHA M
+Waltcomics - Dev - Vendor &amp; Format Breakdown Analysis Tab,09:22,03:00,OVER by 06:22,8,2,6,"Chinmay Dhal, Sabitra Panda"
+Requirement Call,09:10,00:00,NO ESTIMATE,9,0,9,Nellie Rajarova
+PBV2-Dev-Adding full load logic with Incremental load for BigIn,09:10,03:00,OVER by 06:10,4,0,4,Shruti Agarwal
+Dumping the data into the Fabric Bronze layer,09:05,09:00,OVER by 00:05,5,0,5,"Shruti Agarwal, Sabitra Panda"
+ZP - Dev - Create workflow with Custom date logic,08:35,09:00,UNDER by 00:25,2,2,0,HEMALATHA M
+INSD - Analysis - Analysis on the DB connection settings &amp; Module end points,08:27,06:00,OVER by 02:27,5,0,5,"Shruti Agarwal, HEMALATHA M"
+Waltcomics - Validation of revenue in Shopify,08:15,03:00,OVER by 05:15,5,3,2,"Chinmay Dhal, Sabitra Panda"
+Campaign Performance,08:00,00:00,NO ESTIMATE,1,0,1,Nellie Rajarova
+INSD-Validation-Validation of energyled DB source file,08:00,12:15,UNDER by 04:15,4,3,1,Sonali Panda
+Create Measures for Scenario report,08:00,27:00,UNDER by 19:00,1,1,0,Motiranjan Nayak
+Performance Insights Dashboard in Tableau,08:00,16:00,UNDER by 08:00,1,0,1,Motiranjan Nayak
+Dashboard Formatting Learning,08:00,16:00,UNDER by 08:00,1,1,0,Motiranjan Nayak
+Analysis of the Dashboards,08:00,16:00,UNDER by 08:00,1,1,0,Motiranjan Nayak
+Create KPI Cards(Overview),07:52,02:00,OVER by 05:52,3,3,0,Sonam Tanwar
+UPDinc - Dev - Fixing of each Data point Query based on comments mentioned by Peter,07:51,10:00,UNDER by 02:09,9,0,9,Shruti Agarwal
+Sales History,07:50,00:00,NO ESTIMATE,7,1,6,Shruti Agarwal
+Initial Checks and Data processing for 1 end point,07:50,216:00,UNDER by 208:10,5,0,5,"Chinmay Dhal, Shruti Agarwal, Sabitra Panda"
+Val-validation of marketplace appsource report,07:40,03:00,OVER by 04:40,5,5,0,"Sonali Panda, HEMALATHA M"
+SPARK - Check for Creative Value Mismatch Web App Opt,07:38,03:00,OVER by 04:38,3,0,3,Prabhupada Mohanty
+Connecting to sharepoint and pulling the data,07:28,03:00,OVER by 04:28,7,0,7,"Shruti Agarwal, Sabitra Panda"
+SCA : Dev - Creating relationship between the tables,07:10,03:00,OVER by 04:10,4,1,3,Chinmay Dhal
+INSD - Dev - Loading data from CSV to Azure DB for one time to have full load,07:08,03:00,OVER by 04:08,5,0,5,HEMALATHA M
+"SCA : Relationship changes, optimization of filters and improving chart load time",07:00,03:00,OVER by 04:00,3,3,0,"Chinmay Dhal, Sabitra Panda"
+SCA - Creation of Sparepart Combo Pie Chart,07:00,06:00,OVER by 01:00,3,2,1,"Chinmay Dhal, Sabitra Panda"
+"SCA : Data Loading, Reloading, Connection Changes ",07:00,36:00,UNDER by 29:00,3,0,3,Sabitra Panda
+CALENDAR,07:00,16:00,UNDER by 09:00,1,1,0,Pavithiran KJ
+added two new charts,07:00,16:00,UNDER by 09:00,1,1,0,Pavithiran KJ
+INSD - Adding changes to the report based on the new requirement,06:51,06:00,OVER by 00:51,6,0,6,Shruti Agarwal
+Re-Creation of Template model based on the UpDinc model,06:50,41:00,UNDER by 34:10,4,1,3,Shruti Agarwal
+Waltcomics - Dev - Create four crosstabs for New Customer Tab,06:42,03:00,OVER by 03:42,6,3,3,Chinmay Dhal
+Waltcomics Dashboard - Dev - fixing formulas and alignment,06:40,03:00,OVER by 03:40,4,1,3,Chinmay Dhal
+Waltcomic Dashboard - Dev - Issues Fixes,06:35,03:00,OVER by 03:35,6,0,6,Chinmay Dhal
+"Adjust  the Alignment, Portioning of the KPIs and Formatting",06:34,03:00,OVER by 03:34,2,1,1,Prabhupada Mohanty
+ATTR - Dev - Replacing Queries from Demo Model to Attivo Model,06:30,08:00,UNDER by 01:30,5,2,3,"Shruti Agarwal, HEMALATHA M"
+INSD - Dev - Change the PBI source from CSV to DB in Insightly Dashboard,06:30,03:00,OVER by 03:30,1,1,0,HEMALATHA M
+UPDinc - Dev - Adding steps related to Fixing of Sales &amp; Purchase error in the Data Analysis View,06:20,01:00,OVER by 05:20,4,4,0,Shruti Agarwal
+ZP - Issues - Work on data update Issue in ETL,06:18,03:00,OVER by 03:18,3,0,3,HEMALATHA M
+Validation of Running Total &amp; Sales Target values,06:10,06:00,OVER by 00:10,4,1,3,"Gloria Jena, Shruti Agarwal"
+sprint work,06:09,405:00,UNDER by 398:51,9,8,1,"Prabhupada Mohanty, Chinmay Dhal, HEMALATHA M, Gloria Jena, Devyani Nayak, Sonam Tanwar, Shruti Agarwal"
+Exec Summary tab,06:00,00:00,NO ESTIMATE,1,0,1,Nellie Rajarova
+MRP : Inclusion of ZS plant and file bifurcation,06:00,54:00,UNDER by 48:00,3,2,1,Sabitra Panda
+Analysis - Analysis of the existing workflow &amp; requirement,06:00,07:30,UNDER by 01:30,1,1,0,Gloria Jena
+INSD - Dev- Installation of Knime into VM,06:00,01:00,OVER by 05:00,1,1,0,Amit Mohanty
+ZP - Validation - Dashboard Refresh,05:55,02:00,OVER by 03:55,2,1,1,HEMALATHA M
+INSD - Dev- Move the latest workflow &amp; check the execution in VM,05:55,02:00,OVER by 03:55,3,0,3,HEMALATHA M
+INSD - Analysis - Analysis on Install knime on Azure VM,05:50,02:00,OVER by 03:50,2,2,0,HEMALATHA M
+SCA - Optimization of Pareto Chart,05:48,03:00,OVER by 02:48,5,1,4,"Chinmay Dhal, Sabitra Panda"
+Prophet model updates for UDPInc related to forecast,05:44,396:00,UNDER by 390:16,5,3,2,"Amit Mohanty, Shruti Agarwal"
+Check for creative fields,05:44,03:00,OVER by 02:44,3,2,1,Sonam Tanwar
+Compare project numbers &amp; calculate &quot;Running Total&quot;,05:40,03:00,OVER by 02:40,3,1,2,Gloria Jena
+"Waltcomics - Discussion of Vendor and Format, Discount Analysis and New Customers tab Requirements",05:33,01:00,OVER by 04:33,6,1,5,Chinmay Dhal
+Dashboard modifications to accommodate the changes,05:30,06:00,UNDER by 00:30,3,0,3,Shruti Agarwal
+Creation of Updated RTM ProjectHours Report,05:30,03:00,OVER by 02:30,1,1,0,Gloria Jena
+DM- Dev - Adding color formattings to Cohort Analysis matrix,05:20,03:00,OVER by 02:20,2,2,0,Shruti Agarwal
+INSD  - Dev - Loading tables from API to DB,05:20,03:00,OVER by 02:20,1,0,1,HEMALATHA M
+SCA - Pareto chart Optimization,05:17,03:00,OVER by 02:17,5,1,4,"Chinmay Dhal, Sabitra Panda"
+TAOS - GBQ Asset report,05:12,00:00,NO ESTIMATE,1,1,0,Nellie Rajarova
+Going through requirement video with client,05:11,04:00,OVER by 01:11,4,2,2,"Gloria Jena, Shruti Agarwal"
+Research on Labels of Stacked Bar chart,05:05,405:00,UNDER by 399:55,2,2,0,"Akshat Pathak, Chinmay Dhal"
+Set up Skyvia connector,05:00,126:00,UNDER by 121:00,1,0,1,Nellie Rajarova
+Cockpit Gads,05:00,00:00,NO ESTIMATE,1,0,1,Nellie Rajarova
+ZP-Validation-Validation of zoho timesheet data,05:00,04:10,OVER by 00:50,1,1,0,Sonali Panda
+Visual And dax Part -1,05:00,16:00,UNDER by 11:00,1,1,0,Motiranjan Nayak
+Running the Full Extraction of the Workflow,05:00,02:00,OVER by 03:00,2,2,0,Sabyasachi Panda
+CTYFRN - GBQ Code check &amp; Update for Revenue,04:50,03:00,OVER by 01:50,3,3,0,Sonam Tanwar
+Analysis on redesigned reports,04:50,05:00,UNDER by 00:10,1,1,0,Shruti Agarwal
+AMAWTR - RAQ mismatch Dev vs prod,04:48,03:00,OVER by 01:48,3,0,3,Sonam Tanwar
+Fix the issue in PBI Forum,04:47,06:00,UNDER by 01:13,4,0,4,"Shruti Agarwal, Sabyasachi Panda"
+ZP- Dev - Need to work on incremental load workflow,04:45,03:00,OVER by 01:45,2,2,0,"Gloria Jena, HEMALATHA M"
+CTYFRN - Campaign Mapping Updation for Youtube,04:41,06:00,UNDER by 01:19,2,2,0,"Prabhupada Mohanty, Sonam Tanwar"
+Meter Data Project -Discussion on mapping Meter Master data with Meter data,04:40,54:00,UNDER by 49:20,3,0,3,Shruti Agarwal
+Bigin Workflow-1509 (Writing Excel file),04:40,00:00,NO ESTIMATE,3,3,0,Shruti Agarwal
+PBV1-Fixing BigIN workflow for the ID fields,04:40,04:00,OVER by 00:40,5,4,1,"Shruti Agarwal, HEMALATHA M"
+SCA : Dev - Creation of Spare part per call and manual analysis individual,04:35,06:00,UNDER by 01:25,3,3,0,Chinmay Dhal
+Meter Data project - Pulling new data into EnergyLED Meter report,04:34,10:00,UNDER by 05:26,3,3,0,"Shruti Agarwal, Sabitra Panda"
+SCA : Filters : Changing of filters fields with direct tables and Issue Fixes for Filters,04:30,02:00,OVER by 02:30,4,0,4,"Chinmay Dhal, Sabitra Panda"
+CMT - SCA report filters update pointing to the new DB,04:30,03:00,OVER by 01:30,3,0,3,Chinmay Dhal
+Creation of Line chart report,04:30,03:00,OVER by 01:30,3,3,0,Shruti Agarwal
+INSD - Dev - Creation of 12 Months Trailing Insight report,04:29,04:00,OVER by 00:29,5,0,5,Shruti Agarwal
+INSD - Refresh - Execute Knime API to DB load &amp; Refresh the PBI,04:25,02:00,OVER by 02:25,3,3,0,HEMALATHA M
+AMAWTR -  SEO Report GBQ Extracts ,04:23,03:00,OVER by 01:23,3,0,3,Sonam Tanwar
+INSD - Analysis - Analysis for estimation,04:22,02:00,OVER by 02:22,4,0,4,HEMALATHA M
+Analysis on the PBI Forum Workflow,04:21,02:00,OVER by 02:21,4,3,1,Shruti Agarwal
+Client Call - Energy LED,04:18,02:00,OVER by 02:18,6,4,2,HEMALATHA M
+ZP-Analysis-Analysis of Incremental load workflow,04:15,09:00,UNDER by 04:45,2,2,0,HEMALATHA M
+INSD - Creation of Tooltip Table with SQL Query,04:14,05:00,UNDER by 00:46,3,0,3,Shruti Agarwal
+EnergyMeter - Review Discussion for any Development done for  Knime Workflow,04:10,09:00,UNDER by 04:50,1,1,0,Shruti Agarwal
+SSFCU - SSI - Create Imp &amp; CTR KPI cards,04:08,03:00,OVER by 01:08,2,1,1,Sonam Tanwar
+Klaviyo null values issue,04:08,00:00,NO ESTIMATE,4,0,4,Nellie Rajarova
+Low Clicks Appeal view Update,04:05,00:00,NO ESTIMATE,2,0,2,Nellie Rajarova
+CTYFRN - Campaign Mapping Updation for ttd,04:05,06:00,UNDER by 01:55,2,2,0,"Prabhupada Mohanty, Sonam Tanwar"
+ZP - Validation - Validation of Incremental zoho project workflow output,04:05,09:00,UNDER by 04:55,3,3,0,"Shruti Agarwal, HEMALATHA M"
+Xpath Node - Basic Understanding,04:05,06:00,UNDER by 01:55,3,3,0,Shruti Agarwal
+AMAWTR - Data Prep - Top Performing SEO Keyword (GSC),04:02,03:00,OVER by 01:02,2,1,1,Sonam Tanwar
+Create google unified view for skyvia,04:00,63:00,UNDER by 59:00,1,0,1,Nellie Rajarova
+Github Intergration,04:00,00:00,NO ESTIMATE,1,0,1,Nellie Rajarova
+CMT - List of SCA fields for the client to create the new DB n views,04:00,02:00,OVER by 02:00,2,0,2,Chinmay Dhal
+Recruiting  work(resumes shortlisting),04:00,00:00,NO ESTIMATE,2,2,0,Devyani Nayak
+Energy - LED -&gt; Validation,04:00,04:00,EXACTLY ON ESTIMATE,1,1,0,Sonali Panda
+Creation of Facts and Dimension tables,04:00,135:00,UNDER by 131:00,2,1,1,Sabitra Panda
+Dashboard Changes,03:51,10:00,UNDER by 06:09,4,3,1,Gloria Jena
+ZP - Dev - Create Incremental load workflow for Zoho Project ,03:50,03:00,OVER by 00:50,1,0,1,HEMALATHA M
+PBV2-Validate - Checking the output of v1 and v2 workflows,03:50,03:00,OVER by 00:50,2,0,2,Shruti Agarwal
+Meter Data project - Dashboard Enhancements post new changes (CBI included),03:46,358:00,UNDER by 354:14,3,1,2,"Shruti Agarwal, Sabitra Panda"
+SPARK - Validation - AdTheorent,03:45,03:00,OVER by 00:45,2,1,1,Chinmay Dhal
+Inventory Analytics Attivo_v10DataC.4.5-Forecast 1,03:45,00:00,NO ESTIMATE,3,1,2,HEMALATHA M
+GBQ-Analysis-On creating workflow,03:45,03:00,OVER by 00:45,2,2,0,Shruti Agarwal
+AMAWTR - Move to Production,03:44,02:00,OVER by 01:44,2,0,2,"Prabhupada Mohanty, Sonam Tanwar"
+Analyze Missing Fields,03:39,01:30,OVER by 02:09,2,0,2,Nellie Rajarova
+AMAWTR -  Data Prep - Top Performing PPC Keywords,03:39,03:00,OVER by 00:39,1,1,0,Sonam Tanwar
+Solution Architecture Weekly Call,03:37,01:00,OVER by 02:37,2,0,2,Nellie Rajarova
+TAOS - ad_image_preview table search,03:37,03:00,OVER by 00:37,2,2,0,Sonam Tanwar
+Waltcomics - Formatting Changes in New Customer Tab,03:35,02:00,OVER by 01:35,3,2,1,Chinmay Dhal
+DM-Val-Create Validation grid for Sales Workbench,03:31,180:00,UNDER by 176:29,4,4,0,Gloria Jena
+DM-changes in customer cohort analysis report,03:30,02:00,OVER by 01:30,2,2,0,"Sonali Panda, Shruti Agarwal"
+Data Extraction for Issue from Zoho API,03:30,04:00,UNDER by 00:30,2,2,0,"Shruti Agarwal, HEMALATHA M"
+25K Media - Creation of estimation,03:30,03:00,OVER by 00:30,2,2,0,HEMALATHA M
+Creation of Document for the Template Model changes done until now,03:28,03:00,OVER by 00:28,3,1,2,Shruti Agarwal
+Validation of the values added in the report,03:25,06:00,UNDER by 02:35,2,1,1,Shruti Agarwal
+SSFCU -  Prep - Add Youtube to the Creative tab for both Brands,03:24,03:00,OVER by 00:24,2,1,1,Sonam Tanwar
+GBQ - Materialized View Introduction,03:23,03:00,OVER by 00:23,1,1,0,Sonam Tanwar
+Review of Log Hrs for All project,03:22,405:00,UNDER by 401:38,3,3,0,Chinmay Dhal
+Paid Search - Dev - Creation of Bottom Tab visual (Executive Summary),03:20,03:00,OVER by 00:20,1,0,1,Shruti Agarwal
+Analysis - Analysing the Requirement for Paid Search Report creation,03:20,03:00,OVER by 00:20,2,1,1,Shruti Agarwal
+SSFCU - Creative for YouTube &quot;Skippable/Non-Skippable/PMAX Video&quot; for PPC,03:20,03:00,OVER by 00:20,3,2,1,"Chinmay Dhal, Sonam Tanwar"
+SPARK - Move Opt Changes To Prod for Overview Dashboard,03:20,03:00,OVER by 00:20,1,1,0,Prabhupada Mohanty
+Pulling the final transformed data tables into our Power BI file,03:20,06:00,UNDER by 02:40,3,0,3,Shruti Agarwal
+DM - Review - Review Gloria &amp; Sonali&#39;s validation file,03:20,180:00,UNDER by 176:40,3,3,0,"Shruti Agarwal, HEMALATHA M"
+DM - Dev - LTV - Time series toggle changes &amp; LTV Summary dashboard formating changes,03:20,03:00,OVER by 00:20,1,1,0,HEMALATHA M
+ZP- Dev - Need to add incremental logic to the full load workflow,03:20,09:00,UNDER by 05:40,1,0,1,HEMALATHA M
+INSD - Analysis - Checking Tags for Contacts &amp; the Opportunities,03:20,52:00,UNDER by 48:40,5,1,4,"Shruti Agarwal, Sabitra Panda"
+PBV2- Analysing the result of the workflow and checking for number of records,03:20,03:00,OVER by 00:20,1,0,1,Shruti Agarwal
+AMAWTR - Programmatic Pinterest platform fix,03:19,03:00,OVER by 00:19,1,0,1,Sonam Tanwar
+AMAWTR - Adgroups overview  dev vs prod,03:18,03:00,OVER by 00:18,1,1,0,Sonam Tanwar
+DBT integration via Github,03:18,00:00,NO ESTIMATE,1,0,1,Nellie Rajarova
+Creation of Pareto chart,03:17,03:00,OVER by 00:17,4,4,0,Chinmay Dhal
+Paid Social -  Prep - Create Datasource for Facebook,03:16,03:00,OVER by 00:16,1,1,0,Sonam Tanwar
+check the resumes received from linkdin for software developer,03:15,00:00,NO ESTIMATE,1,1,0,Devyani Nayak
+Highbeam Development,03:15,180:00,UNDER by 176:45,4,4,0,"Sonali Panda, Shruti Agarwal"
+Creating Arrow Icons for the Flow using Figma,03:14,03:00,OVER by 00:14,1,1,0,Prabhupada Mohanty
+PILOT - KPI Cards Adjustments,03:13,03:00,OVER by 00:13,2,2,0,Prabhupada Mohanty
+Create Overview View for Google Ads,03:12,03:00,OVER by 00:12,1,1,0,Sonam Tanwar
+"PILOT - Create the KPI cards - Spend, ROAS",03:12,03:00,OVER by 00:12,1,1,0,Prabhupada Mohanty
+Data refresh issue in the MP order &amp; revenue data,03:12,03:00,OVER by 00:12,1,1,0,Shruti Agarwal
+Check for Pmax Campaigns,03:11,03:00,OVER by 00:11,1,1,0,Sonam Tanwar
+AMAWTR-dev and prod dashboard validation,03:11,01:00,OVER by 02:11,2,2,0,"Sonali Panda, Sonam Tanwar"
+IMG - Val - Check the data for Spend post fixes for Rockerbox and Draft Mail,03:10,03:00,OVER by 00:10,1,0,1,Prabhupada Mohanty
+send jd to the tableau candidate,03:10,00:00,NO ESTIMATE,3,3,0,Devyani Nayak
+"PILOT - Create Calculated Fields for Metrics (Imps,Clicks,CPC,CTR,CVR)",03:10,03:00,OVER by 00:10,3,2,1,Prabhupada Mohanty
+"Waltcomics - Creation of wireframe for Vendors &amp; format, Discount and New Customer tabs",03:10,03:00,OVER by 00:10,3,1,2,Chinmay Dhal
+SPARK - Captive Lps Opt Code Check For Facebook,03:08,03:00,OVER by 00:08,1,0,1,Prabhupada Mohanty
+Create Keywords view for Google Ads,03:06,03:00,OVER by 00:06,2,2,0,Sonam Tanwar
+CTYFRN - Mapping Refresh &amp; Non-matching issue,03:06,03:00,OVER by 00:06,1,0,1,Sonam Tanwar
+ZP - Dev - Create Incremental load workflow for Zoho Project,03:05,06:00,UNDER by 02:55,1,1,0,HEMALATHA M
+Create fb view using fivetran basic_ad table,03:04,03:00,OVER by 00:04,1,1,0,Sonam Tanwar
+GBQ - Go through the dataset,03:04,03:00,OVER by 00:04,2,0,2,Sonam Tanwar
+Create Creative view for Google Ads,03:02,03:00,OVER by 00:02,1,0,1,Sonam Tanwar
+GBQ - Create materialized views Replicas,03:02,03:00,OVER by 00:02,1,1,0,Sonam Tanwar
+AMAWTR - Overview &amp; PPC tab value mismatch for USA ,03:02,03:00,OVER by 00:02,1,0,1,Sonam Tanwar
+Modifying the Non-Researched Workflow,03:02,03:00,OVER by 00:02,2,1,1,Shruti Agarwal
+"MRFRNTR - Dev - Top 10 queries with Clicks, Impressions and Position Crosstab",03:01,03:00,OVER by 00:01,3,1,2,Prabhupada Mohanty
+Highbeam Demo-validation,03:01,02:00,OVER by 01:01,2,2,0,Sonali Panda
+SUM &amp; SUMX,03:01,00:00,NO ESTIMATE,1,1,0,Sonali Panda
+SCA : Data Validation of the file post changes,03:00,03:00,EXACTLY ON ESTIMATE,1,0,1,Sabitra Panda
+AMAWTR - Data Prep - SEO Top Pages,03:00,03:00,EXACTLY ON ESTIMATE,1,1,0,Prabhupada Mohanty
+Dumping the final transformed data into silver layer tables,03:00,11:00,UNDER by 08:00,2,1,1,Shruti Agarwal
+Send mail to Marketing Lead candidate requesting for his Linkdin profile,03:00,00:00,NO ESTIMATE,1,1,0,Devyani Nayak
+Prepared the onboarding in zoho people-Marketing Lead,03:00,00:00,NO ESTIMATE,2,2,0,Devyani Nayak
+Learning - Going through the Forecast workflow,03:00,03:00,EXACTLY ON ESTIMATE,1,1,0,Shruti Agarwal
+Workbench visual validation,03:00,03:00,EXACTLY ON ESTIMATE,2,2,0,Gloria Jena
+DM-Val-Creation of test visual and validation of customer cohort analysis report,03:00,180:00,UNDER by 177:00,3,3,0,"Sonali Panda, Shruti Agarwal"
+DM-Val- Create Validation tables for NLTV -Time series  Report,03:00,05:30,UNDER by 02:30,2,2,0,Gloria Jena
+DM-Val- Create Validation tables for  Life Time Value Report,03:00,12:00,UNDER by 09:00,1,1,0,Gloria Jena
+DM-Val- Creation of  test visuals for Executive view dashboard,03:00,03:00,EXACTLY ON ESTIMATE,1,1,0,Sonali Panda
+DM - Dev - Adding Municipal and Savya Logo to all reports,03:00,02:00,OVER by 01:00,2,2,0,Shruti Agarwal
+Data Extraction for Timesheet from Zoho API,03:00,00:00,NO ESTIMATE,1,1,0,Shruti Agarwal
+KNIME batch scripting in azure platform,03:00,03:10,UNDER by 00:10,1,1,0,Sabyasachi Panda
 Analysis-Analysis of 25k media dashboards,03:00,03:00,EXACTLY ON ESTIMATE,1,1,0,Sonali Panda
-sprint work,02:12,00:00,NO ESTIMATE,5,5,0,"Gloria Jena, HEMALATHA M, Sonam Tanwar, Shruti Agarwal, Prabhupada Mohanty"
+Validation of Posted Date - after adding its Xpath Query,03:00,06:00,UNDER by 03:00,1,1,0,Sabyasachi Panda
+Fix X-Path Issue,03:00,06:00,UNDER by 03:00,1,0,1,Sabyasachi Panda
+Requirement Gathering and Meetings,02:57,03:00,UNDER by 00:03,5,0,5,Chinmay Dhal
+GBQ - Create materialized views,02:57,03:00,UNDER by 00:03,1,1,0,Sonam Tanwar
+Tableau Learning - Spot Trend,02:57,03:00,UNDER by 00:03,1,0,1,Prabhupada Mohanty
+SPARK - Apply Opt Changes to All Spark Dashboard in Prod,02:56,03:00,UNDER by 00:04,1,0,1,Prabhupada Mohanty
+MULTI - Switch live to extract data source Prod version,02:56,03:00,UNDER by 00:04,1,1,0,Sonam Tanwar
+DM - Dev - Creation of Sales Toggle View for Customer Cohort Analysis,02:56,180:00,UNDER by 177:04,3,1,2,"Shruti Agarwal, HEMALATHA M"
+Paid Search - Data Prep for GoogleAds and Keyword data,02:55,03:00,UNDER by 00:05,2,2,0,Shruti Agarwal
+GBQ - Use materialized views ,02:54,03:00,UNDER by 00:06,1,0,1,Sonam Tanwar
+MULTI - Update the Date Partition in All Schedule in GBQ,02:54,03:00,UNDER by 00:06,2,2,0,Prabhupada Mohanty
+AMAWTR - Booking Start &amp; Gross Revenue fix,02:54,03:00,UNDER by 00:06,1,1,0,Sonam Tanwar
+Go through the changes done by Hemalatha &amp; Shruti,02:54,01:00,OVER by 01:54,6,6,0,Shruti Agarwal
+FLAVCITY - Dev - Cohort Chart Development for Customer Retention,02:53,02:30,OVER by 00:23,1,1,0,Prabhupada Mohanty
+DM- Dev - Fixing of First Purchase Date Order and creating Marketing &amp; Sales Insights Pages,02:53,03:00,UNDER by 00:07,3,2,1,Shruti Agarwal
+PILOT - KPI Trend by Platform Graph,02:53,02:00,OVER by 00:53,2,1,1,Prabhupada Mohanty
+"PILOT - Create Calculated Fields for Metrics (Purchase,Revenue, Spend,ROAS)",02:52,03:00,UNDER by 00:08,1,1,0,Prabhupada Mohanty
+AMAWTR - Data Prep - Top Performing SEO Keyword (Bing),02:51,06:00,UNDER by 03:09,1,0,1,Prabhupada Mohanty
+Update &quot;Inventory Analytics Attivo_V10DataC.4.0,02:50,00:00,NO ESTIMATE,3,0,3,HEMALATHA M
+call with sabitra as his log hrs were missing from sprint cards,02:50,00:00,NO ESTIMATE,3,3,0,Devyani Nayak
+"PILOT - Performance Trend Graph
+",02:50,03:00,UNDER by 00:10,1,0,1,Prabhupada Mohanty
+INSD - DEV - Creation of DSN file for DB,02:50,03:00,UNDER by 00:10,3,2,1,HEMALATHA M
+Waltcomics - Dev - Discount code Analysis tab,02:50,03:00,UNDER by 00:10,3,1,2,Chinmay Dhal
+AMAWTR - Fix Broken fields post switch on Dashboard,02:49,03:00,UNDER by 00:11,1,0,1,Sonam Tanwar
+DM-Analysis-Analysis of customer retention report,02:48,00:00,NO ESTIMATE,3,3,0,Sonali Panda
+GA4 number issue for session,02:47,00:00,NO ESTIMATE,2,1,1,Nellie Rajarova
+SSFCU -  Update Creative grouping - PPC,02:47,03:00,UNDER by 00:13,1,0,1,Sonam Tanwar
+SSFCU - Requirement Analysis,02:46,02:00,OVER by 00:46,5,2,3,"Chinmay Dhal, Sonam Tanwar"
+Create the data for Ad conversion for GBQ,02:45,00:00,NO ESTIMATE,2,0,2,Nellie Rajarova
+SSFCU - PPC &amp; SSI - Replace &#39;other&#39; with &#39;video&#39; for Google &amp; formatting changes,02:45,01:00,OVER by 01:45,2,1,1,Sonam Tanwar
+Analysis for Dashboard creation,02:45,03:00,UNDER by 00:15,1,1,0,Shruti Agarwal
+Add the redesigned reports,02:45,03:00,UNDER by 00:15,1,1,0,Shruti Agarwal
+PBV2-Learning-Going through use of Call Workflow Service node,02:45,02:00,OVER by 00:45,1,1,0,Shruti Agarwal
+PBV2-Validate - Modules output for the duplicate records,02:45,03:00,UNDER by 00:15,3,1,2,Shruti Agarwal
+SPARK - Data Source Switch Add AdTheorent in Overview dashboard,02:43,03:00,UNDER by 00:17,1,0,1,Prabhupada Mohanty
+Adding Compared Project Hours,02:43,06:00,UNDER by 03:17,2,1,1,"Gloria Jena, Shruti Agarwal"
+MRFRNTR - Data Prep for Google Search Console (GSC),02:42,03:00,UNDER by 00:18,1,0,1,Prabhupada Mohanty
+DM - Dev - Adding formatting changes to all reports based on themes,02:41,03:00,UNDER by 00:19,2,1,1,Shruti Agarwal
+Issues in Matrix visual for Hours left measure,02:40,02:00,OVER by 00:40,2,0,2,Shruti Agarwal
+Remove negative &quot;excess inventory&quot; on workbench.,02:40,03:00,UNDER by 00:20,3,3,0,"Sonali Panda, Shruti Agarwal"
+Checking on executing batch file,02:40,172:00,UNDER by 169:20,2,1,1,Shruti Agarwal
+"PILOT - Create the KPI cards - Revenue, Purchase",02:39,03:00,UNDER by 00:21,2,2,0,Prabhupada Mohanty
+HNYWEL - Dev -  Create Overview Tab,02:38,03:00,UNDER by 00:22,2,0,2,Sonam Tanwar
+"PILOT - Create the KPI cards - CVR, Clicks, CPC",02:38,03:00,UNDER by 00:22,1,1,0,Prabhupada Mohanty
+Creating Calculated fields(Overview),02:37,02:00,OVER by 00:37,1,1,0,Sonam Tanwar
+Create custom reports in Fivetran,02:36,00:00,NO ESTIMATE,1,0,1,Nellie Rajarova
+MULTI - CSV Extraction (LM2-T1326),02:34,03:00,UNDER by 00:26,1,0,1,Prabhupada Mohanty
+"PILOT - Create the KPI cards - Impr, CTR",02:33,03:00,UNDER by 00:27,2,1,1,Prabhupada Mohanty
+AMAWTR  - Create Crosstab  (Keyword Perf Tab),02:32,02:00,OVER by 00:32,1,0,1,Sonam Tanwar
+SPARK - Channel - GBQ Code &amp; Data source switch,02:30,03:00,UNDER by 00:30,1,0,1,Sonam Tanwar
+SCA Client call,02:30,00:00,NO ESTIMATE,5,3,2,Sabitra Panda
+SCA - Validation of Relationships and Filters for new tables,02:30,04:00,UNDER by 01:30,2,0,2,Chinmay Dhal
+Interview scheduled for PBI candidate(vendor resource),02:30,00:00,NO ESTIMATE,1,1,0,Devyani Nayak
+Analysis on changes needs to be added in KNIME,02:30,03:00,UNDER by 00:30,1,0,1,Shruti Agarwal
+Client Call for RTM/Abacus,02:30,00:00,NO ESTIMATE,2,0,2,Amit Mohanty
+Fetching Data from ABACUS API using KNIME Workflow,02:30,216:00,UNDER by 213:30,2,2,0,"Chinmay Dhal, Sabitra Panda"
+ZP-Val-Validation of zoho knime output,02:30,03:00,UNDER by 00:30,1,1,0,Sonali Panda
+Meter Data Project - CBI - Extracting and Transforming data using Power Query,02:30,06:00,UNDER by 03:30,1,1,0,Shruti Agarwal
+Analysis of Bigin Workflow-1509(Generating All Modules Rows),02:30,00:00,NO ESTIMATE,2,2,0,Shruti Agarwal
+Processing BigIN v2 workflow,02:30,01:00,OVER by 01:30,2,2,0,Shruti Agarwal
+Fixing BigIN workflow for the ID fields,02:30,03:00,UNDER by 00:30,3,2,1,Shruti Agarwal
+Analysis on Marketplace Appsource Workflow,02:30,04:00,UNDER by 01:30,2,0,2,Shruti Agarwal
+Final crosscheck of changes for PBI Forum,02:30,02:30,EXACTLY ON ESTIMATE,2,1,1,Shruti Agarwal
+Waltcomic Dashboard - Dev - Shopify metrics creation,02:30,27:00,UNDER by 24:30,2,2,0,Sonali Panda
+DMD - Dashboard Data Validation,02:29,03:00,UNDER by 00:31,2,0,2,Sonam Tanwar
+SSFCU - Toggle Button fix for Creative Crosstab (PPC &amp; SSI),02:28,03:00,UNDER by 00:32,2,0,2,"Prabhupada Mohanty, Sonam Tanwar"
+SSFCU - PPC - Create Imp &amp; CTR KPI cards with calc fields,02:27,03:00,UNDER by 00:33,2,0,2,Sonam Tanwar
+AMAWTR - Creating Calculated fields (Keyword Perf Tab),02:26,02:00,OVER by 00:26,1,1,0,Sonam Tanwar
+INSD - Analysis - Analysis on loading MS Access tables into DB,02:25,03:00,UNDER by 00:35,1,1,0,HEMALATHA M
+Going through First Processing Metanode,02:23,06:00,UNDER by 03:37,2,2,0,"Shruti Agarwal, Sabyasachi Panda"
+SPARK - Dev - Create Graph for Lead and Sub Conversions in Daily Trend,02:22,01:30,OVER by 00:52,2,2,0,"Sonali Panda, Prabhupada Mohanty"
+GBQ -  use Materialized view  with Standard view,02:20,03:00,UNDER by 00:40,1,1,0,Sonam Tanwar
+FLAVCITY - Search For Required Fields and Tables,02:20,02:00,OVER by 00:20,1,0,1,Prabhupada Mohanty
+HNYWEL -  Share Extract ,02:20,02:00,OVER by 00:20,3,0,3,Sonam Tanwar
+Prepare recording for trello board,02:20,00:00,NO ESTIMATE,2,2,0,Devyani Nayak
+Validation of Numbers for current &amp; projected months,02:20,02:00,OVER by 00:20,1,1,0,Shruti Agarwal
+Analysis of Power Query changes added in Distributor file,02:20,08:00,UNDER by 05:40,1,1,0,HEMALATHA M
+GBQ-Dev-Creation of GBQ Data Transferring KNIME workflow,02:20,03:00,UNDER by 00:40,1,1,0,Shruti Agarwal
+Cross validation of the full &amp; Incremental load for PBI Forum,02:20,03:00,UNDER by 00:40,2,0,2,Shruti Agarwal
+Waltcomics - Unified Names Document Creation for Vendor and Format,02:18,02:00,OVER by 00:18,5,2,3,Chinmay Dhal
+"SCA - Review and Fixes - Implementation and Removal of Filters for Pareto Chart, Pie Chart and Pie Charts Bar",02:15,03:00,UNDER by 00:45,1,1,0,Chinmay Dhal
+GNRL - Creation of Issues reports raised by Maria,02:15,02:00,OVER by 00:15,1,1,0,Chinmay Dhal
+Analysis on debugging the missing date in the ETL,02:15,03:00,UNDER by 00:45,2,1,1,Shruti Agarwal
+Analysis of Operating Hours total,02:15,02:00,OVER by 00:15,2,2,0,Shruti Agarwal
+DM - Dev - Creation of Marketing Toggle View for Customer Cohort Analysis,02:15,03:00,UNDER by 00:45,1,1,0,Shruti Agarwal
+Inventory looks to be pulled from &quot;Available&quot; rather than &quot;On Hand&quot;.  Inventory calculations should use &quot;On Hand&quot; to determine current inventory amount.,02:15,06:00,UNDER by 03:45,1,1,0,Shruti Agarwal
+Analysing on the Non Researched Industry file not updating in the OneDrive,02:15,02:00,OVER by 00:15,3,2,1,Shruti Agarwal
+PILOT - Prepare the data for the view with accounts/clients,02:12,03:00,UNDER by 00:48,1,0,1,Prabhupada Mohanty
+Explore schema for GA4,02:10,00:00,NO ESTIMATE,1,0,1,Nellie Rajarova
+Modifying Inventory query in the Template model,02:10,02:00,OVER by 00:10,3,1,2,Shruti Agarwal
+DM - Dev - Creation of Customer Retention % measure for Cohort Analysis,02:10,03:00,UNDER by 00:50,2,2,0,"Sonali Panda, Shruti Agarwal"
+Learn-Azure Logic app,02:10,02:00,OVER by 00:10,1,1,0,Sabyasachi Panda
+MAS - Analysis - Analysis &amp; Execute the latest workflow for Appsource,02:10,03:00,UNDER by 00:50,2,0,2,HEMALATHA M
+Analysis - Analysis of GoogleAds GBQ Data ,02:09,03:00,UNDER by 00:51,2,0,2,Shruti Agarwal
+Create Full year plan &amp; line chart(Overview),02:06,02:00,OVER by 00:06,1,1,0,Sonam Tanwar
+SPARK - QBR Data validation,02:06,02:00,OVER by 00:06,1,0,1,Sonam Tanwar
+AMAWTR - Data Validation Dev vs Prod Overview &amp; PPC,02:06,02:00,OVER by 00:06,1,1,0,Sonam Tanwar
+PILOT - Adding Estimates,02:06,03:00,UNDER by 00:54,2,1,1,Prabhupada Mohanty
+Pilot - Analysis  - Analysis on the PBI datasource for Performance Marketing Report,02:05,03:00,UNDER by 00:55,1,0,1,HEMALATHA M
+ZP - Issues - Fixing issues in incremental workflow,02:05,03:00,UNDER by 00:55,1,0,1,HEMALATHA M
+Add the 3 missing views from old accelerator,02:04,00:00,NO ESTIMATE,1,0,1,Nellie Rajarova
+TAOS - Create Creative view using TAOS dataset,02:02,03:00,UNDER by 00:58,1,0,1,Sonam Tanwar
+IMG - Update lead Rockerbox,02:02,02:00,OVER by 00:02,3,1,2,Sonam Tanwar
+Creation of Paid Search Tab,02:00,10:00,UNDER by 08:00,1,0,1,Chinmay Dhal
+"Create the Adname, headline, Description, Url",02:00,00:00,NO ESTIMATE,1,0,1,Nellie Rajarova
+Implement different KPI designs,02:00,00:00,NO ESTIMATE,1,0,1,Nellie Rajarova
+Tableau resumes shortlist,02:00,00:00,NO ESTIMATE,2,2,0,Devyani Nayak
+Tableau Recruitment,02:00,00:00,NO ESTIMATE,2,1,1,Devyani Nayak
+Modified the scenario for future &amp; current date comparison,02:00,03:00,UNDER by 01:00,1,1,0,Shruti Agarwal
+DM-Val-Validation of kpi dashboard,02:00,02:00,EXACTLY ON ESTIMATE,1,1,0,Sonali Panda
+"DM-Creation of Test case report for executive view dashboard,kpi dashboard and cohort analysis report",02:00,02:00,EXACTLY ON ESTIMATE,1,1,0,Sonali Panda
+DM-Val- Creation of  test visuals for KPI dashboard,02:00,02:00,EXACTLY ON ESTIMATE,1,1,0,Sonali Panda
+PILOT - Create Calculated Fields for Dates filters,02:00,02:00,EXACTLY ON ESTIMATE,1,1,0,Prabhupada Mohanty
+INSD-Validation-Validation of insightly dashboard for dB source connection,02:00,04:00,UNDER by 02:00,1,1,0,Sonali Panda
+Emporia - Dev -  Creation of Knime workflow to add Data Transformation,02:00,09:00,UNDER by 07:00,1,1,0,Shruti Agarwal
+Review and Fixes for New Requirements,02:00,81:00,UNDER by 79:00,2,0,2,Sabitra Panda
+Data Validation,02:00,81:00,UNDER by 79:00,2,0,2,Sabitra Panda
+Handling Missing Values &amp; String Manipulation,02:00,00:00,NO ESTIMATE,1,1,0,Sonali Panda
+BigINv2 - Execution of Full load ,02:00,02:00,EXACTLY ON ESTIMATE,1,0,1,Shruti Agarwal
+PBV2-Executing BigIN v2 for checking latest records populating in BigIN data,02:00,01:00,OVER by 01:00,1,0,1,Shruti Agarwal
+Refreshing the Non-Researched Industry file,02:00,01:00,OVER by 01:00,2,1,1,Shruti Agarwal
+Analysis for Writing Xpath for AppsTitle,02:00,04:00,UNDER by 02:00,1,1,0,Shruti Agarwal
+Analyze issue- PBI Forum,02:00,02:02,UNDER by 00:02,1,0,1,Sabyasachi Panda
+"Added Xpath for Status, User, and added Extraction Date field",02:00,02:00,EXACTLY ON ESTIMATE,1,1,0,Sabyasachi Panda
+MRP - Creation of Stock Value Reports: Cumulative and Non-Cumulative,01:59,02:00,UNDER by 00:01,3,2,1,Chinmay Dhal
+SSFCU - SSI - Time Comparison Crosstab add new row &amp; re-order,01:57,02:00,UNDER by 00:03,1,1,0,Sonam Tanwar
+PILOT - KPI Trend by Platform Graph Separation,01:57,02:00,UNDER by 00:03,1,1,0,Prabhupada Mohanty
+Dev - Creation of Forecast view report for UPDinc,01:56,396:00,UNDER by 394:04,2,2,0,Shruti Agarwal
+SCA - Optimization of Pie charts,01:54,03:00,UNDER by 01:06,2,0,2,Chinmay Dhal
+AMAWTR - Data Validation Dev vs Prod post fixes PS &amp; Programmatic tab,01:54,02:00,UNDER by 00:06,1,1,0,Sonam Tanwar
+Waltcomics - Discussion on YoY TBD,01:54,02:00,UNDER by 00:06,4,0,4,Chinmay Dhal
+Marketing_Overview dashboard validation (Overview),01:53,02:00,UNDER by 00:07,1,1,0,Sonam Tanwar
+DMD - Data source Switch,01:53,02:00,UNDER by 00:07,1,1,0,Sonam Tanwar
+Waltcomics - Formatting Changes of Discount code Analysis tab,01:53,01:00,OVER by 00:53,3,0,3,Chinmay Dhal
+Client Call - Communicazione21,01:51,00:00,NO ESTIMATE,2,2,0,"Amit Mohanty, HEMALATHA M"
+"IMG - Rockerbox Update Leads formula
+",01:50,02:00,UNDER by 00:10,1,0,1,Prabhupada Mohanty
+Payroll work for Hemalatha-,01:50,00:00,NO ESTIMATE,2,1,1,Devyani Nayak
+"DM - Dev - all NGI needs to be renamed as &lt;MKTG&gt;GI and Net Gross Income as &lt;MKTG&gt; Gross Income on headers, buttons and tooltips",01:50,01:00,OVER by 00:50,1,1,0,HEMALATHA M
+PVE - Dev - Knime workflow creation for MP Leads &amp; MP Reports,01:50,03:00,UNDER by 01:10,1,1,0,HEMALATHA M
+HNYWEL - Update Conversion Mapping (Overview),01:49,02:00,UNDER by 00:11,1,1,0,Sonam Tanwar
+SSFCU - Data check for Image_Preview &amp; shared extract,01:48,02:00,UNDER by 00:12,1,0,1,Sonam Tanwar
+PILOT - Dashboard Formatting and Alignments,01:48,02:00,UNDER by 00:12,1,0,1,Prabhupada Mohanty
+SPARK - Data Perp to add AdTheorent in spark view,01:47,02:00,UNDER by 00:13,1,0,1,Prabhupada Mohanty
+"FLAVCITY - Add the Net Sales , Unique Product Orders, Unique Orders to CVM Cross Tab",01:45,02:00,UNDER by 00:15,1,1,0,Prabhupada Mohanty
+Chk what are the fuctions of epic in sprint,01:45,09:00,UNDER by 07:15,1,1,0,Devyani Nayak
+ZP - Val - Validation of incremental logic with knime output,01:45,03:00,UNDER by 01:15,2,0,2,HEMALATHA M
+Analysis on Data update Issue in Sales by item report,01:45,24:00,UNDER by 22:15,1,1,0,HEMALATHA M
+Waltcomics - Shopify Requirement Call/Video,01:45,00:00,NO ESTIMATE,3,0,3,Nellie Rajarova
+GADS PBI - Requirement/ Clarification calls,01:44,02:00,UNDER by 00:16,2,0,2,Nellie Rajarova
+PILOT - Data Checks for Dashboard,01:42,02:00,UNDER by 00:18,1,0,1,Prabhupada Mohanty
+UPDinc - Creation of Parameter for filtering the date for Forecast data,01:40,10:00,UNDER by 08:20,2,1,1,Shruti Agarwal
+CMT-Analysis-Getting along with the current requirement,01:40,03:00,UNDER by 01:20,2,0,2,Shruti Agarwal
+SCA - Documented Field-Level Filters for all visuals,01:40,02:00,UNDER by 00:20,2,1,1,Chinmay Dhal
+Checking for visual break,01:40,10:00,UNDER by 08:20,2,0,2,"Gloria Jena, Shruti Agarwal"
+ZP - Val - Validate the data with PBI ,01:40,04:00,UNDER by 02:20,1,0,1,HEMALATHA M
+Create Customer specific visual under Segment Sales by FinYear dashboard,01:40,02:00,UNDER by 00:20,2,2,0,HEMALATHA M
+INSD - Analysis on new Requirements,01:40,01:00,OVER by 00:40,2,0,2,Shruti Agarwal
+INSD - Analysis of the requirement to create tooltip in the Sales Rep KPI.,01:40,05:00,UNDER by 03:20,1,1,0,Shruti Agarwal
 Assortment Simulator Assignment,01:40,00:00,NO ESTIMATE,2,2,0,"Shruti Agarwal, HEMALATHA M"
-Status call,00:50,00:00,NO ESTIMATE,2,0,2,Sonali Panda
+SPARK - Extract the Tables Required for New Users,01:38,01:30,OVER by 00:08,2,0,2,Prabhupada Mohanty
+AMAWTR - GBQ  Code update for Overview &amp; Creative,01:38,02:00,UNDER by 00:22,1,1,0,Sonam Tanwar
+DM - Validation of the overall Customer Acquisition to Retention report,01:37,03:00,UNDER by 01:23,3,2,1,"Sonali Panda, Shruti Agarwal"
+DM-Analysis-Analysis of profit workbench,01:36,00:00,NO ESTIMATE,3,3,0,Sonali Panda
+HNYWEL - Validation - Dashboard,01:35,02:00,UNDER by 00:25,3,0,3,Chinmay Dhal
+Installing &amp; Setting up of R script,01:35,08:00,UNDER by 06:25,2,2,0,"Shruti Agarwal, HEMALATHA M"
+INSD - Dev - Addition of Day in Sales Rep KPI and Providing dynamic date selection in the SourceOpp12m report,01:35,01:00,OVER by 00:35,3,2,1,Shruti Agarwal
+SCA - Investigated the mismatched values in the Pareto chart,01:34,03:00,UNDER by 01:26,2,0,2,Chinmay Dhal
+HNYWEL - Update Conversion Mapping (Keyword),01:33,02:00,UNDER by 00:27,1,1,0,Sonam Tanwar
+Create Donut Chart Conversion by channel(Overview),01:32,01:00,OVER by 00:32,1,1,0,Sonam Tanwar
+Google Ads Integration Summary Stitch,01:31,02:00,UNDER by 00:29,1,0,1,Nellie Rajarova
+Creation of line chart and overlapping chart(Overview Tab),01:30,08:00,UNDER by 06:30,1,1,0,Chinmay Dhal
+Pilot - Dev - Performance Trend Dashboard Creation,01:30,03:00,UNDER by 01:30,1,1,0,HEMALATHA M
+MRP - Review of Fixing filter option which shows all values for particular planner,01:30,10:00,UNDER by 08:30,1,1,0,Chinmay Dhal
+AMAWTR-prod and dev dashboard validation,01:30,00:00,NO ESTIMATE,1,0,1,Sonali Panda
+Converting the column headers based on the headers mapping file,01:30,02:00,UNDER by 00:30,1,0,1,Shruti Agarwal
+Sprint Call,01:30,09:00,UNDER by 07:30,3,0,3,Devyani Nayak
+check  with zoho  project person  regarding the zoho sprint cards not showing in zoho projects.,01:30,09:00,UNDER by 07:30,2,2,0,Devyani Nayak
+chk issues in payroll raised by Asit,01:30,00:00,NO ESTIMATE,1,0,1,Devyani Nayak
+DM-Val-Data validation of executive view dashboard,01:30,02:00,UNDER by 00:30,1,1,0,Sonali Panda
+DM - Analysis - Analysis on the new changes review document,01:30,02:00,UNDER by 00:30,2,2,0,HEMALATHA M
+DM - Analysis - Analysing the Inventory Forecast visual showing wrong values as per client,01:30,06:00,UNDER by 04:30,3,1,2,Shruti Agarwal
+DM-Val- Validation of TTM values for customers,01:30,00:00,NO ESTIMATE,1,1,0,Sonali Panda
+PILOT - Validation - KPIs,01:30,02:00,UNDER by 00:30,3,0,3,Chinmay Dhal
+Investigation of Dashboard Fields ( RTM ),01:30,03:00,UNDER by 01:30,1,1,0,HEMALATHA M
+INSD - Analysis - Analysis &amp; Creation of document for VM &amp; DB Connection details,01:30,02:00,UNDER by 00:30,2,1,1,HEMALATHA M
+INSD - Analysis of Email Data &amp; Emails_Table data.,01:30,04:00,UNDER by 02:30,1,0,1,Shruti Agarwal
+PBV2-Issue/Fixes - Checking for BigIN workflow execution error,01:30,01:00,OVER by 00:30,1,1,0,Shruti Agarwal
+waltcomic dashboard-Val-Validation of overview dashboard,01:30,09:00,UNDER by 07:30,1,1,0,Sonali Panda
+SPARK - Data Prep - Create the New Users View in GBQ,01:29,01:30,UNDER by 00:01,1,0,1,Prabhupada Mohanty
+Add campaign and Adhoc view,01:28,00:00,NO ESTIMATE,1,0,1,Nellie Rajarova
+Modification - Xpath for Page wise extraction,01:28,02:00,UNDER by 00:32,1,1,0,Sabyasachi Panda
+SSFCU - Validation - SSI &amp; PPC Dashboard,01:25,01:00,OVER by 00:25,2,1,1,Chinmay Dhal
+DM - DEV - Consolidate LTV with Cohort in the main Demo dashboard,01:25,02:00,UNDER by 00:35,1,1,0,HEMALATHA M
+Checking on BigIN data update,01:25,01:00,OVER by 00:25,3,2,1,Shruti Agarwal
+FLAVCITY - Check for Product Type Field in Shopify Tables,01:22,01:30,UNDER by 00:08,1,1,0,Prabhupada Mohanty
+AMAWTR - Gone through requirement &amp; Create Cards,01:22,01:00,OVER by 00:22,1,1,0,Sonam Tanwar
+SPARK - Offset Web App and  Landing Page Tab Pause the Extract,01:22,02:00,UNDER by 00:38,1,1,0,Prabhupada Mohanty
+IMG - Validation - Rocker Box,01:20,03:00,UNDER by 01:40,1,0,1,Chinmay Dhal
+DM - Dev - Creation of GrossIncome &amp; NGI Cohort Grids measure based on direct &amp; Indirect interaction with the filters,01:20,02:00,UNDER by 00:40,1,0,1,Shruti Agarwal
+Val-Validation of market place appsource knime workflow,01:20,03:00,UNDER by 01:40,1,1,0,HEMALATHA M
+Meter Data Project - Analysis on CBI data,01:20,06:00,UNDER by 04:40,2,1,1,Shruti Agarwal
+EMERY -  Create Toogle for KPI metrics,01:19,03:00,UNDER by 01:41,1,0,1,Sonam Tanwar
+Create buckets in GCS for data storage,01:18,03:00,UNDER by 01:42,1,0,1,Nellie Rajarova
+Apply Formatting changes(Overview),01:16,01:00,OVER by 00:16,1,0,1,Sonam Tanwar
+SPARK - Web OS - GBQ Code Update &amp; Data source switch,01:16,03:00,UNDER by 01:44,1,1,0,Sonam Tanwar
+Requirement Calls,01:16,45:00,UNDER by 43:44,2,0,2,Nellie Rajarova
+FLAVCITY - Dev - Testing Retention Rate Comparison Graph,01:15,02:00,UNDER by 00:45,1,1,0,Prabhupada Mohanty
+DM - Dev - Sales Revenue Growth rate creation for Sales workbench dashboard,01:15,03:00,UNDER by 01:45,1,1,0,HEMALATHA M
+Check for Latest Data in Non-Researched Industry file,01:15,01:00,OVER by 00:15,2,1,1,Shruti Agarwal
+"Waltcomics - Formatting changes on Overview, Shopify Metric and Klaviyo Email Marketing Tab for the logo&#39;s",01:15,02:00,UNDER by 00:45,1,1,0,Chinmay Dhal
+Paid Search - Dev- Creation of KPI cards visual,01:14,03:00,UNDER by 01:46,1,1,0,Shruti Agarwal
+SPARK - Captive LPs Export Create,01:13,02:00,UNDER by 00:47,1,0,1,Sonam Tanwar
+Waltcomics - Implementation of New Tables: Data Extraction Process and Framework for Vendor &amp; Format tab,01:13,06:00,UNDER by 04:47,2,0,2,Chinmay Dhal
+Paid Social - Split FB/Insta,01:12,03:00,UNDER by 01:48,1,1,0,Nellie Rajarova
+Check the existing dashboard,01:12,00:00,NO ESTIMATE,1,0,1,Nellie Rajarova
+Add Campaign Level Dataset,01:11,02:00,UNDER by 00:49,2,0,2,Nellie Rajarova
+SPARK - New User Update Move to Prod,01:11,01:00,OVER by 00:11,2,0,2,Prabhupada Mohanty
+Upload  vendor resume in Teams,01:10,00:00,NO ESTIMATE,1,1,0,Devyani Nayak
+DM - Dev- coloring of bars and the line then  addition of Sayva image,01:10,03:00,UNDER by 01:50,1,0,1,HEMALATHA M
+DM - Dev - Adding of formatting changes to the overall report and addition of Municipal Logo,01:10,180:00,UNDER by 178:50,2,2,0,Shruti Agarwal
+Internal call,01:10,00:00,NO ESTIMATE,1,0,1,Shruti Agarwal
+Review in Zoho Project Dashboard,01:10,04:00,UNDER by 02:50,1,1,0,HEMALATHA M
+Waltcomics Dashboard - call for the table extraction,01:10,02:00,UNDER by 00:50,1,0,1,Chinmay Dhal
+Updte the Qlity Score rating,01:09,00:00,NO ESTIMATE,1,0,1,Nellie Rajarova
+SPARK - Data Source Switch Add AdTheorent in Daily Summary dashboard,01:07,01:00,OVER by 00:07,1,0,1,Prabhupada Mohanty
+AMAWTR -  SEO Report GBQ Extracts,01:07,03:00,UNDER by 01:53,2,2,0,"Prabhupada Mohanty, Sonam Tanwar"
+Waltcomics - Shopify Data Exploration for Order line,01:07,00:00,NO ESTIMATE,1,0,1,Nellie Rajarova
+Requirement  Analysis (Overview),01:06,01:00,OVER by 00:06,1,0,1,Sonam Tanwar
+Calls,01:06,00:00,NO ESTIMATE,1,0,1,Nellie Rajarova
+EMERY - Dev - Create Trend chart,01:06,01:00,OVER by 00:06,1,1,0,Sonam Tanwar
+HB-val-validation of sales workbench,01:06,00:00,NO ESTIMATE,1,1,0,Sonali Panda
+Apply required filter across the tab basic/adv,01:05,00:00,NO ESTIMATE,1,0,1,Nellie Rajarova
+SCA - Discussion of New Requirements Combo PieChart,01:05,02:00,UNDER by 00:55,2,1,1,Chinmay Dhal
+SPARK-Bussiness dashboard dev and prod dashboard,01:05,00:00,NO ESTIMATE,1,1,0,Sonali Panda
+Status call,01:05,00:00,NO ESTIMATE,3,1,2,"Devyani Nayak, Sonali Panda"
+DM-Val- Need to fix the validation grid for cohort report,01:05,00:00,NO ESTIMATE,3,3,0,"Gloria Jena, Sonali Panda, Shruti Agarwal"
+DM-Val-Customer Retention(LTV) Functionality Validation,01:05,00:00,NO ESTIMATE,1,1,0,Sonali Panda
+Create total imps by channel(Overview),01:04,01:00,OVER by 00:04,1,1,0,Sonam Tanwar
+AMAWTR - Closed the datasources not in use,01:04,01:00,OVER by 00:04,1,0,1,Sonam Tanwar
+DM-Analysis-Ananlysis  of inventory workbench,01:04,00:00,NO ESTIMATE,2,2,0,Sonali Panda
+Internal Meeting,01:03,00:00,NO ESTIMATE,2,0,2,Shruti Agarwal
+Review Gloria&#39;s documentation changes,01:03,180:00,UNDER by 178:57,1,1,0,Shruti Agarwal
+DM-Val-validation of functionality of customer acquisition sales dashboard,01:03,00:00,NO ESTIMATE,1,1,0,Sonali Panda
+Updated Budget for Trend Charts (Overview),01:02,01:00,OVER by 00:02,1,1,0,Sonam Tanwar
+SPARK - Update Revcat and Currency To Google Sheet,01:02,00:30,OVER by 00:32,2,2,0,Prabhupada Mohanty
+HNYWEL - Dev - Brand/Non-Brand &amp;Campaign Filter create &amp; Apply,01:02,01:00,OVER by 00:02,1,0,1,Sonam Tanwar
+HB-Val-functionality validation of inventory workbench,01:02,00:00,NO ESTIMATE,1,1,0,Sonali Panda
+SSFCU - PPC -  Time Comparison crosstab re-order,01:01,01:00,OVER by 00:01,2,1,1,Sonam Tanwar
+SSFCU - Add Split for Tactic in Creative for PPC,01:01,01:00,OVER by 00:01,2,0,2,Sonam Tanwar
+DM-Val- GI LTV - Time Series Report Functionality Validation,01:01,00:00,NO ESTIMATE,1,1,0,Sonali Panda
+Analysis of issues related to 3 year forecast for UDPInc Data,01:00,09:00,UNDER by 08:00,1,0,1,Shruti Agarwal
+BUGS,01:00,00:00,NO ESTIMATE,1,0,1,Shruti Agarwal
+Template Search,01:00,00:00,NO ESTIMATE,1,0,1,Nellie Rajarova
+Client Call - Communicazione21 (MRP),01:00,00:00,NO ESTIMATE,2,1,1,HEMALATHA M
+SCA - Check which all tables are using tbDim,01:00,02:00,UNDER by 01:00,1,1,0,Chinmay Dhal
+SCA Data refresh and data analysis to populate the dashboard,01:00,02:00,UNDER by 01:00,1,1,0,Sabitra Panda
+SCA - Formatting changes of filters in all pages,01:00,01:00,EXACTLY ON ESTIMATE,1,0,1,Chinmay Dhal
+SPARK - New User Data Validation in Dashboard,01:00,01:00,EXACTLY ON ESTIMATE,1,1,0,Prabhupada Mohanty
+SPARK - Dev - Add New Users to Cross Tab,01:00,01:00,EXACTLY ON ESTIMATE,1,1,0,Prabhupada Mohanty
+SPARK - Data Prep - Add New User Data Source in Relationship,01:00,01:00,EXACTLY ON ESTIMATE,1,1,0,Prabhupada Mohanty
+SPARK-validation of 4 spark dashboard for spend,01:00,00:00,NO ESTIMATE,1,1,0,Sonali Panda
+"SPARK-3d cpl,3d cps,14dcpl and 14d cps validation",01:00,00:00,NO ESTIMATE,1,1,0,Sonali Panda
+Power BI Shortlisting,01:00,00:00,NO ESTIMATE,1,1,0,Devyani Nayak
+Prepare &amp;  send Alteryx JD to vendors,01:00,00:00,NO ESTIMATE,1,1,0,Devyani Nayak
+Update Shobit&#39;s revised salary in zoho payroll,01:00,00:00,NO ESTIMATE,1,1,0,Devyani Nayak
+Validation of the values added in line chart.,01:00,01:00,EXACTLY ON ESTIMATE,1,1,0,Shruti Agarwal
+RTM flow and Queries for Abacus migration,01:00,00:00,NO ESTIMATE,2,0,2,Amit Mohanty
+DM-Val-validation of functionality of executive view dashboard,01:00,02:00,UNDER by 01:00,1,1,0,Sonali Panda
+DM - Analysis - Analysing the Requirement Update Document for Cohort Analysis,01:00,03:00,UNDER by 02:00,1,1,0,Shruti Agarwal
+DM - Dev - Creation of Revenue Cohort KPI card,01:00,02:00,UNDER by 01:00,1,1,0,Sonali Panda
+DM-Val-Profit Workbench Functionality Validation.,01:00,00:00,NO ESTIMATE,1,1,0,Sonali Panda
+HB-val-validation of  NGI LTV report,01:00,00:00,NO ESTIMATE,1,1,0,Sonali Panda
+DM-Val-validation of functionality of customer acquisition marketing dashboard,01:00,00:00,NO ESTIMATE,1,1,0,Sonali Panda
+HB-Val-functionality validation of executive view,01:00,00:00,NO ESTIMATE,1,1,0,Sonali Panda
+DM-Val-KPI card formula validation,01:00,09:00,UNDER by 08:00,1,1,0,Sonali Panda
+Analysis of 3 KPI cards,01:00,09:00,UNDER by 08:00,1,1,0,Sonali Panda
+Analysing on the Demo Bugs mentioned by Peter,01:00,01:00,EXACTLY ON ESTIMATE,1,0,1,Shruti Agarwal
+Need to update top &amp; bottom N measure,01:00,05:00,UNDER by 04:00,1,1,0,Shruti Agarwal
+DM-Val-Need to fix the numbers in the Customer Retention (LTV ) &amp;  Profit Workbench validation grid.,01:00,30:00,UNDER by 29:00,1,1,0,Gloria Jena
+Fixing the Issue in Product table power query transformation,01:00,30:00,UNDER by 29:00,1,1,0,Gloria Jena
+Connect teams to Logic app,01:00,01:00,EXACTLY ON ESTIMATE,1,1,0,Sabyasachi Panda
+Checking on CBI csv file provided by Njabulo,01:00,06:00,UNDER by 05:00,1,1,0,Shruti Agarwal
+Development Tasks and Research,01:00,189:00,UNDER by 188:00,1,0,1,Sabitra Panda
+INSD - Analysis - Analysing the issue for missing Opportunity IDs,01:00,05:00,UNDER by 04:00,1,1,0,Shruti Agarwal
+Issue/Fixes - Fixing Sales Dashboard data refresh issue for License-Net Data,01:00,01:00,EXACTLY ON ESTIMATE,1,0,1,Shruti Agarwal
+NRIW-Executing Non-Researched Industry Workflow,01:00,01:00,EXACTLY ON ESTIMATE,1,0,1,Shruti Agarwal
+Data Refresh for - BigIN &amp; Non-Researched Industry file,01:00,01:00,EXACTLY ON ESTIMATE,1,1,0,Shruti Agarwal
+Analysis on Java Heap space error in Knime,01:00,01:30,UNDER by 00:30,1,1,0,Shruti Agarwal
+Analysis of BigIN workflow issue,01:00,01:00,EXACTLY ON ESTIMATE,2,1,1,Shruti Agarwal
+Fix and Modification - PBI Forum,01:00,06:00,UNDER by 05:00,1,0,1,Shruti Agarwal
+Analyze the Workflow for Incremental load,01:00,03:00,UNDER by 02:00,1,0,1,Sabyasachi Panda
+waltcomic dashboard-validation,01:00,18:00,UNDER by 17:00,1,0,1,Sonali Panda
+Set up GA4 integration,00:59,00:00,NO ESTIMATE,2,0,2,Nellie Rajarova
+"FLAVCITY - Send Shopify Export for Product Type with order line
+",00:58,02:00,UNDER by 01:02,1,0,1,Prabhupada Mohanty
+SPARK - Requirement Analysis / LOE,00:57,01:00,UNDER by 00:03,1,0,1,Prabhupada Mohanty
+AMAWTR - Fix Formatting post refresh all tabs,00:57,01:00,UNDER by 00:03,1,0,1,Sonam Tanwar
+SPARK - Update Revcat and Currency in GSheet,00:57,01:00,UNDER by 00:03,1,1,0,Prabhupada Mohanty
+Create channel Performance Chart(Overview),00:56,01:00,UNDER by 00:04,1,1,0,Sonam Tanwar
+HNYWEL - Dev - Create PPC Tab ,00:56,01:00,UNDER by 00:04,1,0,1,Sonam Tanwar
+SSFCU -  Add Filter for Branded/Non-Branded Campaigns,00:56,01:00,UNDER by 00:04,1,1,0,Sonam Tanwar
+PILOT - Performance Tend Based On Platform,00:56,02:00,UNDER by 01:04,1,0,1,Prabhupada Mohanty
+Call with Nellie-regarding sonali task card,00:55,00:00,NO ESTIMATE,1,1,0,Devyani Nayak
+"DM - analysis - analysis &amp; Creation of logic for the measure for Executive view, Workbench, KPI dashboard &amp; LTV",00:55,03:00,UNDER by 02:05,1,1,0,HEMALATHA M
+INSD - Dev - Loading data from SharePoint to Azure DB,00:55,01:00,UNDER by 00:05,1,1,0,HEMALATHA M
+INSD- Dev - Add Stacked Bar chart in SegmentSalesbyFinYear,00:55,00:30,OVER by 00:25,3,3,0,HEMALATHA M
+Analyze the workflow-PBI Forum(2nd),00:55,06:00,UNDER by 05:05,1,1,0,Shruti Agarwal
+"Waltcomics - Validation of Overview, Shopify Metrics and Klaviyo Tab",00:55,02:00,UNDER by 01:05,2,0,2,Chinmay Dhal
+Create Bar Chart below Donut(Overview),00:54,01:00,UNDER by 00:06,1,1,0,Sonam Tanwar
+DM - Dev - Creation of Customer Cohort KPI card,00:54,180:00,UNDER by 179:06,1,1,0,HEMALATHA M
+Requirement Analysis - Paid Search Tab,00:52,01:00,UNDER by 00:08,1,0,1,Sonam Tanwar
+Analysis - Analysing the Requirement for Paid Social Report creation,00:51,01:00,UNDER by 00:09,2,0,2,Sonam Tanwar
+Task BISCA-11654 - New table and fields changes for SCA Pareto,00:50,03:00,UNDER by 02:10,1,1,0,Chinmay Dhal
+SPARK - GBQ update to Remove Agency fee from all the Dashboards,00:50,02:00,UNDER by 01:10,1,1,0,Prabhupada Mohanty
+SSFCU - Validation - SSI Dashboard of tactic filters,00:50,01:00,UNDER by 00:10,1,0,1,Chinmay Dhal
+Power BI Recruiting,00:50,00:00,NO ESTIMATE,2,0,2,Devyani Nayak
+Adding changes to KNIME ETL,00:50,01:00,UNDER by 00:10,1,1,0,Shruti Agarwal
+DM - Dev - Add rectangular box as foreground for cohort visuals,00:50,00:30,OVER by 00:20,1,1,0,HEMALATHA M
+DM - Val - Validation of review changes,00:50,00:45,OVER by 00:05,1,0,1,HEMALATHA M
+INSD - Validation - Need to refresh the dashboard to check the numbers,00:50,02:00,UNDER by 01:10,1,0,1,HEMALATHA M
+Monitoring workflow execution in the VM due to password change,00:50,172:00,UNDER by 171:10,2,0,2,Shruti Agarwal
+Execution of PBI Forum workflow to check it&#39;s completion duration for full Load,00:50,01:00,UNDER by 00:10,1,1,0,Shruti Agarwal
+DM-Val-Create Validation tables for Customer Cohort Analysis Report,00:48,03:00,UNDER by 02:12,2,2,0,"Sonali Panda, Shruti Agarwal"
+HNYWEL - Requirement Analysis,00:47,01:00,UNDER by 00:13,1,0,1,Sonam Tanwar
+Power query changes,00:46,08:00,UNDER by 07:14,1,1,0,HEMALATHA M
+Formatting change for Sales Workbench report,00:45,396:00,UNDER by 395:15,1,1,0,Shruti Agarwal
+MULTI - Research Facebook Creatives,00:45,00:00,NO ESTIMATE,1,0,1,Nellie Rajarova
+Tableau Recruiting,00:45,00:00,NO ESTIMATE,2,1,1,Devyani Nayak
+chk with zoho guys the lamark time set issue not sorted yet,00:45,00:00,NO ESTIMATE,1,1,0,Devyani Nayak
+send offer letter to the QA&#39;s,00:45,00:00,NO ESTIMATE,1,1,0,Devyani Nayak
+Analysis of Tableau Report,00:45,01:00,UNDER by 00:15,1,1,0,Shruti Agarwal
+Execution of Non Researched Industry workflow,00:45,00:00,NO ESTIMATE,1,0,1,Shruti Agarwal
+Waltcomics Dashboard - Data Extract for Klaviyo,00:45,01:00,UNDER by 00:15,1,1,0,Chinmay Dhal
+Analysis on Sales table transformation,00:43,00:00,NO ESTIMATE,2,2,0,HEMALATHA M
+DM - Dev - Final changes/check in the overall Cohort report and Grouping it&#39;s measures,00:42,180:00,UNDER by 179:18,2,2,0,Shruti Agarwal
+DM - Dev - Trailing 12 months for Date range in Sales workbench dashboard,00:42,00:00,NO ESTIMATE,1,1,0,Shruti Agarwal
+Analysis on how to do the validation,00:41,180:00,UNDER by 179:19,1,1,0,HEMALATHA M
+MRFRNTR - SEO Send Exports for GSC and GBP,00:40,01:00,UNDER by 00:20,1,1,0,Prabhupada Mohanty
+SSFCU - Validation - PPC Dashboard of tactic filters,00:40,01:00,UNDER by 00:20,1,0,1,Chinmay Dhal
+SSFCU - Add Split for Tactic in Creative for SSI,00:40,01:00,UNDER by 00:20,1,1,0,Prabhupada Mohanty
+Daily status call for half an hour,00:40,09:00,UNDER by 08:20,2,2,0,Devyani Nayak
+chk with sonam whether she has applied for leave or not on 8th April,00:40,00:00,NO ESTIMATE,1,1,0,Devyani Nayak
+contractorsresumes chked &amp; Dataset sent for evaluation,00:40,00:00,NO ESTIMATE,1,1,0,Devyani Nayak
+Formatting changes in the New_Preview file,00:40,01:00,UNDER by 00:20,2,1,1,Shruti Agarwal
+change in test case  document after review,00:40,09:00,UNDER by 08:20,1,1,0,Sonali Panda
+Product Description Table Query Change,00:40,08:00,UNDER by 07:20,1,1,0,Shruti Agarwal
+PILOT - Validation - Performance trend ,00:40,01:00,UNDER by 00:20,3,0,3,Chinmay Dhal
+PILOT - Performance Overview Crosstab,00:40,01:00,UNDER by 00:20,1,0,1,Prabhupada Mohanty
+Zoho Dashboard,00:40,02:00,UNDER by 01:20,1,1,0,HEMALATHA M
+ZP-Analysis-Going through the Understanding of the workflow &amp; Checking its document,00:40,09:00,UNDER by 08:20,1,1,0,HEMALATHA M
 PBI Interview,00:40,00:00,NO ESTIMATE,1,1,0,HEMALATHA M
+ReviewFixes-Adding query changes for Deals Module in Sales Dashboard v2.,00:40,01:00,UNDER by 00:20,1,1,0,Shruti Agarwal
+Bigin Workflow,00:40,01:00,UNDER by 00:20,1,1,0,Shruti Agarwal
+EMERY - Create LOE &amp; ETAs for the Requirement,00:39,00:30,OVER by 00:09,1,0,1,Sonam Tanwar
+SPARK - Data Source Switch Add AdTheorent in Business dashboard,00:38,01:00,UNDER by 00:22,1,0,1,Prabhupada Mohanty
 Learning Dax Functions,00:38,00:00,NO ESTIMATE,1,1,0,Chinmay Dhal
+AMAWTR - SEO Report GBQ Exports (LM2-T1148),00:37,03:00,UNDER by 02:23,2,0,2,Prabhupada Mohanty
+Analysis-marketing dashboards,00:37,405:00,UNDER by 404:23,2,2,0,"Akshat Pathak, HEMALATHA M"
+Create the field mapping document,00:36,00:00,NO ESTIMATE,1,0,1,Nellie Rajarova
+Review HighBeam Fabric Implementation Changes based on old design,00:36,03:00,UNDER by 02:24,1,1,0,Shruti Agarwal
+SPARK - Data Source Switch Add AdTheorent in Supplier dashboard,00:35,01:00,UNDER by 00:25,1,0,1,Prabhupada Mohanty
+SPARK-Creative tab number validation,00:35,00:00,NO ESTIMATE,1,1,0,Sonali Panda
+Sprint discussion - Sabitra,00:35,00:00,NO ESTIMATE,2,2,0,Devyani Nayak
+Discussion with Amrita- Interview schedule,00:35,00:00,NO ESTIMATE,2,2,0,Devyani Nayak
+Fixed the missing date field,00:35,02:00,UNDER by 01:25,2,2,0,"Gloria Jena, Shruti Agarwal"
+DM - Dev - Creation of measure for Avg Life Time Value (ALTV) for marketing workbench dashboard,00:35,02:00,UNDER by 01:25,1,1,0,HEMALATHA M
+Issue fix on Executive view,00:35,00:00,NO ESTIMATE,1,1,0,Sonali Panda
+ZP - Val - Validation of zoho project PBI dashboard,00:35,02:00,UNDER by 01:25,1,0,1,HEMALATHA M
+Checking Sharepoint connection node in Knime,00:35,01:00,UNDER by 00:25,2,2,0,Shruti Agarwal
+Feasibilty to get GA4 metrics in ads,00:34,01:00,UNDER by 00:26,1,0,1,Nellie Rajarova
+SPARK - Add AdTheorent Planning,00:34,01:00,UNDER by 00:26,1,0,1,Prabhupada Mohanty
+Discussion with Devyani,00:34,405:00,UNDER by 404:26,3,3,0,"Gloria Jena, Chinmay Dhal"
 Create Extract for View_all_marking_overview ,00:34,01:00,UNDER by 00:26,1,0,1,Prabhupada Mohanty
+Demo Dashboard,00:33,180:00,UNDER by 179:27,1,1,0,HEMALATHA M
+INSD - Val - Validate the loaded DB data from API &amp; SharePoint,00:33,02:00,UNDER by 01:27,1,0,1,HEMALATHA M
+DM-Val- validation of customer cohort analysis  dashboard of latest file,00:32,180:00,UNDER by 179:28,1,1,0,Shruti Agarwal
+DM-Creation of test scenario for customer acquistion report,00:32,00:00,NO ESTIMATE,1,1,0,Sonali Panda
+Add Redesign executive view,00:32,00:00,NO ESTIMATE,1,1,0,Sonali Panda
+Checking on optimizing of the EnergyLED workflow,00:32,03:00,UNDER by 02:28,1,1,0,Shruti Agarwal
+Analysis of marketing performance dashboard,00:32,405:00,UNDER by 404:28,1,1,0,Sonam Tanwar
+SPARK-SE0 period comparision tab validation,00:31,00:00,NO ESTIMATE,1,1,0,Sonali Panda
+SPARK-Landing page tab validation,00:31,00:00,NO ESTIMATE,1,1,0,Sonali Panda
+SPARK-creative data validation with overview tab,00:31,00:00,NO ESTIMATE,1,1,0,Sonali Panda
+Import Data Source ,00:30,01:00,UNDER by 00:30,1,0,1,Chinmay Dhal
+Assets - Check if PMax campaign can be captured as Asset,00:30,02:00,UNDER by 01:30,1,0,1,Nellie Rajarova
+"CMT - Dev - MRP Tool report requirements updates for plant, drill through and formats",00:30,00:00,NO ESTIMATE,2,2,0,Shruti Agarwal
+CMT - Dev - MRP Tool report requirements changes,00:30,10:00,UNDER by 09:30,1,1,0,Chinmay Dhal
+SCA - Formatting Changes of all the headers in all tabs,00:30,03:00,UNDER by 02:30,1,0,1,Chinmay Dhal
+Requirement Analysis,00:30,02:00,UNDER by 01:30,1,1,0,Chinmay Dhal
+FLAVCITY - Research - Working of Cohort Chart,00:30,01:00,UNDER by 00:30,1,1,0,Prabhupada Mohanty
+SPARK - Agency Service Allocation value Update,00:30,02:00,UNDER by 01:30,1,0,1,Nellie Rajarova
+SSFCU - Check for tactic Filters update post the split in SSI,00:30,01:00,UNDER by 00:30,1,1,0,Prabhupada Mohanty
+SPARK - Val - Create Graph for Lead and Sub Conversions in Daily Trend Validation,00:30,00:30,EXACTLY ON ESTIMATE,1,0,1,Prabhupada Mohanty
+SPARK - Dev - Create Graph for Lead and Sub Conversions in Daily Trends Formatting,00:30,00:30,EXACTLY ON ESTIMATE,1,0,1,Prabhupada Mohanty
+Recruit issue raised by Asit,00:30,00:00,NO ESTIMATE,1,1,0,Devyani Nayak
+Staffing  Agencies  follow up work,00:30,00:00,NO ESTIMATE,1,0,1,Devyani Nayak
+DM-Val-Need to do changes in Workbench validation visuals.,00:30,00:30,EXACTLY ON ESTIMATE,1,1,0,Gloria Jena
+HB-update-Test scenario report updation,00:30,180:00,UNDER by 179:30,1,1,0,Shruti Agarwal
+INSD - Publish - Publish the Insightly dashboard with DB source,00:30,00:00,NO ESTIMATE,1,1,0,HEMALATHA M
+Monitoring Workflow Execution - Insightly &amp; EnergyMeter,00:30,172:00,UNDER by 171:30,1,1,0,Shruti Agarwal
+Analysis of PowerBI-Insightly Dashboard_v1.pbix,00:30,05:00,UNDER by 04:30,1,1,0,Shruti Agarwal
 Analysis of tableau dashboards and test case reports,00:30,00:00,NO ESTIMATE,1,1,0,Sonali Panda
+Zoho Project Log Hours Issues,00:30,405:00,UNDER by 404:30,2,2,0,Chinmay Dhal
+PBVI-Dev-Modifying columns in Deals,00:30,00:30,EXACTLY ON ESTIMATE,1,1,0,Shruti Agarwal
+Waltcomics - Shopify Data Exploration for Format and Vendor,00:30,00:00,NO ESTIMATE,1,0,1,Nellie Rajarova
+Apartment Dashboard - Trend Chart data validation,00:30,09:00,UNDER by 08:30,1,1,0,Sonali Panda
+waltcomic dashboard-Val-Validation of shopify metrics dashboard,00:30,03:00,UNDER by 02:30,1,1,0,Chinmay Dhal
+SSFCU - Planning for ETA and LOE,00:29,01:00,UNDER by 00:31,1,0,1,Sonam Tanwar
+Review Changes for Demo file,00:28,180:00,UNDER by 179:32,1,1,0,HEMALATHA M
+DM - Analysis - Analysing Cohort Analysis requirement document,00:28,180:00,UNDER by 179:32,1,1,0,Shruti Agarwal
+DM-Val-made changes in executive view dashboard,00:27,08:00,UNDER by 07:33,1,1,0,HEMALATHA M
+SPARK - Update the Channel in Business View,00:26,01:00,UNDER by 00:34,1,0,1,Prabhupada Mohanty
 Analysis for Scenario report Creation,00:26,00:00,NO ESTIMATE,1,1,0,Chinmay Dhal
 Meeting - Timesheet,00:26,00:00,NO ESTIMATE,1,1,0,HEMALATHA M
+Analysis of marketing dashboard,00:26,405:00,UNDER by 404:34,1,1,0,Sonam Tanwar
+PBI-marketing analytics overview dashboard-validation,00:25,03:00,UNDER by 02:35,1,1,0,HEMALATHA M
+FLAVCITY - Validation - Test plan report creation,00:25,03:00,UNDER by 02:35,1,1,0,Chinmay Dhal
+Wrong Product Category Description,00:25,00:00,NO ESTIMATE,1,0,1,HEMALATHA M
+zoho people work - chk &amp;  trello board chk of new joinees,00:25,00:00,NO ESTIMATE,1,1,0,Devyani Nayak
+Sent Reports &amp; recruitment updates,00:25,00:00,NO ESTIMATE,1,1,0,Devyani Nayak
+Staffing Agencies,00:25,00:00,NO ESTIMATE,1,0,1,Devyani Nayak
+INSD - Dev - Changes to the Opportunity stage tab &amp; Customer Sales Pie tab,00:25,01:00,UNDER by 00:35,1,0,1,Shruti Agarwal
 Meeting -Status Update Call,00:23,00:00,NO ESTIMATE,1,1,0,Nellie Rajarova
-Discussion with Devyani,00:20,00:00,NO ESTIMATE,1,1,0,Gloria Jena
+Access to GCS bucket,00:22,02:00,UNDER by 01:38,1,0,1,Nellie Rajarova
+MULTI - Dashboard Jobs to pause in tableau,00:22,00:30,UNDER by 00:08,1,0,1,Sonam Tanwar
+Highbeam 6.6q formatting,00:22,180:00,UNDER by 179:38,1,1,0,Shruti Agarwal
+HNYWEL - PLANNING,00:21,01:00,UNDER by 00:39,1,0,1,Sonam Tanwar
+DM - Analysis - Analysis of Customer Retention measure being created,00:21,180:00,UNDER by 179:39,1,1,0,Shruti Agarwal
+Dashboard Development,00:21,00:00,NO ESTIMATE,1,1,0,Sonali Panda
+Non Billable Calls,00:21,405:00,UNDER by 404:39,1,1,0,Chinmay Dhal
+Post Marketing Lead Equirement in Amrita&#39;s linkdin account,00:20,00:00,NO ESTIMATE,1,1,0,Devyani Nayak
+Sprint calls,00:20,00:00,NO ESTIMATE,1,0,1,Devyani Nayak
+set up a call of debjyoti and amrita,00:20,00:00,NO ESTIMATE,1,1,0,Devyani Nayak
+discussion with Sabyasachi,00:20,00:00,NO ESTIMATE,1,1,0,Devyani Nayak
+Vendor follow up- &amp; sending dataset,00:20,00:00,NO ESTIMATE,1,1,0,Devyani Nayak
+check and upload company policies,00:20,00:00,NO ESTIMATE,1,0,1,Devyani Nayak
+Call with sabitra regarding contractor resources submissions  and also discussion about deviprasad,00:20,00:00,NO ESTIMATE,1,1,0,Devyani Nayak
+Sales original table Issue fix,00:20,180:00,UNDER by 179:40,1,1,0,Shruti Agarwal
+PILOT - Validation - KPI by Platform,00:20,01:00,UNDER by 00:40,2,0,2,Chinmay Dhal
+ZP-Validation-Validation of zoho timesheet,00:20,09:00,UNDER by 08:40,1,1,0,HEMALATHA M
+Understanding the Zoho KNIME workflow,00:20,04:00,UNDER by 03:40,1,1,0,HEMALATHA M
+Overview on energy - LED document,00:20,00:00,NO ESTIMATE,1,1,0,HEMALATHA M
+create Segment Sales by Fin Year dashboard,00:20,02:00,UNDER by 01:40,1,0,1,HEMALATHA M
+EnergyMeter - Updating Jan data for Emporio,00:20,10:00,UNDER by 09:40,1,1,0,Shruti Agarwal
+Switch date table in george&#39;s report,00:20,01:00,UNDER by 00:40,1,1,0,Shruti Agarwal
+Waltcomics - Data Refresh for the Shopify Data table,00:20,01:00,UNDER by 00:40,1,0,1,Chinmay Dhal
 Going through ZOHO workflow,00:19,00:00,NO ESTIMATE,1,1,0,Nellie Rajarova
+Highbeam 7.0  Changes,00:18,180:00,UNDER by 179:42,1,1,0,Shruti Agarwal
+Waltcomics - Validation of New Customer Tab,00:18,02:00,UNDER by 01:42,1,0,1,Chinmay Dhal
+Klaviyo - Check the View failure,00:18,00:00,NO ESTIMATE,1,0,1,Nellie Rajarova
 CROSS REPORT DRILLTHROUGHS in Power BI,00:17,00:00,NO ESTIMATE,1,1,0,Chinmay Dhal
 Zoho - Subtask Issue,00:16,00:00,NO ESTIMATE,1,1,0,Nellie Rajarova
+Zoho work,00:15,00:00,NO ESTIMATE,1,0,1,Devyani Nayak
+check about sprint cards retain status,00:15,09:00,UNDER by 08:45,1,1,0,Devyani Nayak
+Discuss with shruti about the last week cards in sprint,00:15,09:00,UNDER by 08:45,1,1,0,Devyani Nayak
+Call with Dhara,00:15,00:00,NO ESTIMATE,1,1,0,Devyani Nayak
+Issue-MP-Orders Revenue Estimated Figure was high than MP Pricing.,00:15,01:00,UNDER by 00:45,1,0,1,Shruti Agarwal
+Update workflows with ServicePrincipal Authentication,00:15,00:15,EXACTLY ON ESTIMATE,1,0,1,Shruti Agarwal
+"Waltcomics - Formatting changes on Overview, Shopify Metric and Klaviyo Email Marketing Tab for the logo&#39;s ",00:15,02:00,UNDER by 01:45,1,0,1,Chinmay Dhal
+SSFCU - Planning,00:14,01:00,UNDER by 00:46,1,0,1,Sonam Tanwar
+Analysis on Gross Income not present issue in Attivo file,00:12,180:00,UNDER by 179:48,1,1,0,Gloria Jena
+Analysis on the Issue with R script,00:12,08:00,UNDER by 07:48,1,1,0,Shruti Agarwal
 Status Call - Non Billable,00:12,00:00,NO ESTIMATE,1,1,0,Nellie Rajarova
 Zoho Sprint Work,00:11,00:00,NO ESTIMATE,1,1,0,Chinmay Dhal
-Analysis-marketing dashboards,00:11,00:00,NO ESTIMATE,1,1,0,HEMALATHA M
+SPARK-SEO checklist,00:10,00:00,NO ESTIMATE,1,1,0,Sonali Panda
+Discuss with Asit about Prabhu,00:10,00:00,NO ESTIMATE,1,1,0,Devyani Nayak
+Call with sonam &amp; Gloria,00:10,00:00,NO ESTIMATE,1,1,0,Devyani Nayak
+Check Sabyasachi  medical rep[ort,00:10,00:00,NO ESTIMATE,1,1,0,Devyani Nayak
+Changes in Report,00:10,03:00,UNDER by 02:50,1,1,0,Shruti Agarwal
+DM-Val- Create Validation tables for LTV - Time Series Report,00:10,00:10,EXACTLY ON ESTIMATE,1,1,0,Gloria Jena
+Issue fix,00:10,00:30,UNDER by 00:20,2,2,0,Sonali Panda
+HB-issues-alignment is not correct,00:10,00:30,UNDER by 00:20,1,0,1,Shruti Agarwal
+Changes for Descriptor 1 &amp; Descriptor 2,00:10,05:00,UNDER by 04:50,1,1,0,Shruti Agarwal
+PILOT - Validation - Performance Overview,00:10,01:00,UNDER by 00:50,2,0,2,Chinmay Dhal
+Dev - Update of dashboard with Updated EnergyMeterdata,00:10,10:00,UNDER by 09:50,1,1,0,Shruti Agarwal
 Dashboard Validation Analysis-LMRK Projects,00:10,00:00,NO ESTIMATE,1,1,0,Chinmay Dhal
-Zoho Project Log Hours Issues,00:06,00:00,NO ESTIMATE,1,1,0,Chinmay Dhal
+Check for sprint cards and hrs,00:10,405:00,UNDER by 404:50,1,1,0,Akshat Pathak
+PBV2-Checking for BigIN v2 document for search criteria,00:10,02:00,UNDER by 01:50,1,0,1,Shruti Agarwal
+Going through the BigIN API Document,00:10,02:00,UNDER by 01:50,1,1,0,Shruti Agarwal
+PBV2 - Checking BigIN data refresh,00:10,01:00,UNDER by 00:50,1,0,1,Shruti Agarwal
+Waltcomics Dashboard - Dev - Creation of Traffic &amp; Conversion,00:08,02:00,UNDER by 01:52,1,1,0,Chinmay Dhal
+Status Call,00:07,00:00,NO ESTIMATE,1,1,0,Prabhupada Mohanty
+AMC-Dev-Analysis &amp; Creation of Sales Data flow,00:06,08:00,UNDER by 07:54,1,1,0,Shruti Agarwal
+Prepare for onboarding for Marketing lead,00:05,00:00,NO ESTIMATE,1,0,1,Devyani Nayak
+Change Gross margin%,00:05,00:10,UNDER by 00:05,1,1,0,HEMALATHA M
+Explore on Attivo power query transformation,00:05,08:00,UNDER by 07:55,1,1,0,HEMALATHA M
+Instal R,00:05,08:00,UNDER by 07:55,1,1,0,Shruti Agarwal

@@ -80,12 +80,7 @@ for task_name, logs in groups.items():
 
 report.sort(key=lambda x: time_to_minutes(x["total_actual_hours"]), reverse=True)
 
-print("\n--- AGGREGATION REPORT ---")
-for item in report:
-    print(f"\nTask: {item['matched_task']}")
-    print(f"Actual: {item['total_actual_hours']} | Estimated: {item['estimated_hours']}")
-    print(f"Variance: {item['variance']}")
-    print(f"Logs: {item['log_count']} | Owners: {', '.join(item['owners'])}")
+print(f"Report generated: {len(report)} unique tasks")
 
 with open("report.json", "w") as f:
     json.dump(report, f, indent=2)
